@@ -1,3 +1,5 @@
+using CleanArchitecture.Core.Interfaces;
+
 namespace CleanArchitecture.Core.Validations
 {
     /// <summary>

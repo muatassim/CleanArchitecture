@@ -48,45 +48,95 @@ In Clean Architecture, entities should encapsulate their own identity and busine
 ```C#
 namespace CleanArchitecture.Core.Entities
 {
-    public class Customer : Shared.Entity<int>
+    public class Person(int id) : Entity<int>(id)
     {
-        public string Name { get; private set; }
+    public int PersonId { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public int Age { get; set; }
+    public string Email { get; set; } = string.Empty;
 
-        public Customer(int id, string name) : base(id)
+    public override List<Rule> CreateRules()
+    {
+        var rules = new List<Rule>
         {
-            CheckRule(new CustomerNameCannotBeEmpty(name));
-            Name = name;
-        }
+            new CustomRule(nameof(Name), $"{nameof(Name)} validation failed.", ()=> PersonValidator.NameIsNotEmpty(Name)),
+            new RegexRule(nameof(Email), $"{nameof(Email)} must be valid", @"^[^@\s]+@[^@\s]+\.[^@\s]+$"),
+            new CustomRule(nameof(Age), $"{nameof(Age)} validation failed.", ()=> PersonValidator.IsAgeValid(Age)),
 
-        private void CheckRule(IRule rule)
-        {
-            if (rule.IsBroken())
-                throw new Exceptions.DomainException(rule.Message);
-        }
+        };
+        return rules;
+    }
     }
 }
 ```
-2. **Defining a Business Rule** 
+2. **Defining a Validtor ** 
 
 ```C#
 namespace CleanArchitecture.Core.Validations
 {
-    public interface IRule
+   public static class PersonValidator
+{
+    public static bool NameIsNotEmpty(string name)
     {
-        bool IsBroken();
-        string Message { get; }
+        return !string.IsNullOrWhiteSpace(name);
     }
-
-    public class CustomerNameCannotBeEmpty : IRule
+    public static bool IsAgeValid(int age)
     {
-        private readonly string _name;
-        public CustomerNameCannotBeEmpty(string name) => _name = name;
-        public bool IsBroken() => string.IsNullOrWhiteSpace(_name);
-        public string Message => "Customer name cannot be empty.";
+        return age is >= 0 and <= 120; // Example validation for age
     }
 }
+
+}
 ``` 
- 
+3. **Defining a Validation Service Not Required **
+
+**Create a validation service to encapsulate validation logic:**
+```C#
+   public class PersonValidationService : ValidationService<Person, int>
+    {
+        public override (bool IsValid, List<ValidationError> Errors) IsValid(Person? entity)
+        {
+            return entity == null ? (false, [new ValidationError("Entity", "Entity is null")]) : base.IsValid(entity);
+        }
+    }
+```
+4. ** Validating with and Without Validation Service **
+
+```C#
+ [TestClass]
+    public class PersonEntityTest
+    {
+        [DataTestMethod]
+        [DataRow(1, "John Doe", "a@gmail.com")]
+        public void ValidatePersonRulesTest(int id, string name, string email)
+        {
+            Person person = new Person(id)
+            {
+                Name = name,
+                Age = 35,
+                Email = email
+            };
+            var rules = person.CreateRules();
+            var isValid = rules.All(rule => rule.ValidateRule(person));
+            Assert.IsTrue(isValid, "Person entity should be valid based on the provided rules.");
+        }
+
+        [DataTestMethod]
+        [DataRow(1, "John Doe", "a@gmail.com")]
+        public void ValidatePersonRulesServiceTest(int id, string name, string email)
+        {
+            Person person = new Person(id)
+            {
+                Name = name,
+                Age = 35,
+                Email = email
+            };
+            var personValidationService = new PersonValidationService();
+            (bool IsValid, List<ValidationError> Errors)  = personValidationService.IsValid(person);
+            Assert.IsTrue(IsValid, "Person entity should be valid based on the provided rules.");
+        }
+    }
+```
 ### 2. Creating a Value Object
 
 Value objects are immutable and compared by their values, not identity. For example, an `Email` value object:
