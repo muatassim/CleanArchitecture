@@ -43,7 +43,15 @@ The Core layer defines the essential business rules and domain logic. It should 
 Entities are domain objects with a unique identity. For example, a `User` entity:
 
 ```C#
-namespace CleanArchitecture.Core.Entities { public class User { public Guid Id { get; set; } public string Email { get; set; } = default!; public string Name { get; set; } = default!; } }
+namespace CleanArchitecture.Core.Entities 
+{ 
+    public class User 
+    {
+        public Guid Id { get; set; } 
+        public string Email { get; set; } = default!; 
+        public string Name { get; set; } = default!; } 
+    }
+}
 ```
 
 ### 2. Creating a Value Object
@@ -51,7 +59,16 @@ namespace CleanArchitecture.Core.Entities { public class User { public Guid Id {
 Value objects are immutable and compared by their values, not identity. For example, an `Email` value object:
 
 ```C#
-namespace CleanArchitecture.Core.ValueObjects { public record Email(string Value) { public static Email Create(string value) { // Add validation logic here if (string.IsNullOrWhiteSpace(value) || !value.Contains("@")) throw new ArgumentException("Invalid email address.", nameof(value)); return new Email(value); } } }
+namespace CleanArchitecture.Core.ValueObjects 
+{ 
+    public record Email(string Value) 
+    { 
+        public static Email Create(string value) 
+        { 
+            // Add validation logic here if (string.IsNullOrWhiteSpace(value) || !value.Contains("@")) 
+            throw new ArgumentException("Invalid email address.", nameof(value)); return new Email(value); 
+         } 
+}
 ```
 
 ### 3. Declaring an Interface
@@ -59,7 +76,14 @@ namespace CleanArchitecture.Core.ValueObjects { public record Email(string Value
 Interfaces define contracts for services or repositories. For example, a user repository interface:
 
 ```C#
-namespace CleanArchitecture.Core.Interfaces { public interface IUserRepository { User? GetById(Guid id); void Add(User user); } }
+namespace CleanArchitecture.Core.Interfaces 
+{ 
+    public interface IUserRepository 
+    { 
+        User? GetById(Guid id); 
+        void Add(User user); 
+    } 
+}
 ```
 
 ### 4. Implementing a Domain Service
@@ -67,23 +91,27 @@ namespace CleanArchitecture.Core.Interfaces { public interface IUserRepository {
 Domain services contain business logic that doesn’t naturally fit within an entity or value object. For example, a user registration service:
 
 ```C#
-namespace CleanArchitecture.Core.Services { public class UserRegistrationService { private readonly IUserRepository _userRepository;
-    public UserRegistrationService(IUserRepository userRepository)
-    {
-        _userRepository = userRepository;
-    }
-
-    public void Register(string email, string name)
-    {
-        var user = new User
+namespace CleanArchitecture.Core.Services 
+{ 
+    public class UserRegistrationService 
+    { 
+        private readonly IUserRepository _userRepository;
+        public UserRegistrationService(IUserRepository userRepository)
         {
-            Id = Guid.NewGuid(),
-            Email = email,
-            Name = name
-        };
-        _userRepository.Add(user);
+            _userRepository = userRepository;
+        }
+
+        public void Register(string email, string name)
+        {
+            var user = new User
+            {
+                Id = Guid.NewGuid(),
+                Email = email,
+                Name = name
+            };
+            _userRepository.Add(user);
+        }
     }
-}
 }
 ```
 
@@ -91,7 +119,15 @@ namespace CleanArchitecture.Core.Services { public class UserRegistrationService
 
 Custom exceptions communicate domain-specific errors:
 ```C#
-namespace CleanArchitecture.Core.Exceptions { public class DomainException : Exception { public DomainException(string message) : base(message) { } } }
+namespace CleanArchitecture.Core.Exceptions 
+{ 
+    public class DomainException : Exception 
+    { 
+        public DomainException(string message) : base(message) 
+        {
+        } 
+    } 
+}
 
 ```
  
@@ -112,7 +148,16 @@ The **Abstractions** folder contains interfaces and contracts that define the bo
 **Example:**
 
 ```C#
-namespace CleanArchitecture.Core.Abstractions { public interface IRepository<T> { T? GetById(Guid id); void Add(T entity); void Remove(T entity); } }
+namespace CleanArchitecture.Core.Abstractions 
+{ 
+    public interface IRepository<T> 
+    { 
+        T? GetById(Guid id); 
+        void Add(T entity); 
+        void Remove(T entity); 
+        } 
+    }
+}
 ```
 
 ### Shared
@@ -125,7 +170,13 @@ The **Shared** folder is for code that is used across multiple parts of the Core
 **Example:**
 
 ```C#
-namespace CleanArchitecture.Core.Shared { public abstract class EntityBase { public Guid Id { get; protected set; } } }
+namespace CleanArchitecture.Core.Shared 
+{ 
+    public abstract class EntityBase 
+    { 
+        public Guid Id { get; protected set; }
+    } 
+}
 ```
 
 
@@ -141,7 +192,17 @@ The **Validations** folder contains business rule validators and logic to ensure
 **Example:**
 
 ```C#
-namespace CleanArchitecture.Core.Validations { public class UserValidator { public static void ValidateEmail(string email) { if (string.IsNullOrWhiteSpace(email) || !email.Contains("@")) throw new ArgumentException("Invalid email address.", nameof(email)); } } }
+namespace CleanArchitecture.Core.Validations 
+{ 
+    public class UserValidator 
+    { 
+        public static void ValidateEmail(string email) 
+        { 
+            if (string.IsNullOrWhiteSpace(email) || !email.Contains("@"))   
+                throw new ArgumentException("Invalid email address.", nameof(email));
+        } 
+    } 
+}
 ```
 
 ---
