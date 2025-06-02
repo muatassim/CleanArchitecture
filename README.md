@@ -1,4 +1,4 @@
-# CleanArchitecture.Core
+﻿# CleanArchitecture.Core
 
 This project implements the **Core layer** of a Clean Architecture solution using .NET 9. The Core layer is the heart of the application, containing business logic, domain entities, and interfaces. It is completely independent of external frameworks and technologies.
 
@@ -34,7 +34,43 @@ The Core layer defines the essential business rules and domain logic. It should 
 - **Testability**: All business logic can be unit tested without infrastructure.
 - **Separation of Concerns**: Core contains only domain logic, not data access or UI.
 
+- **Reusability**: The Core layer can be reused across different applications or services without modification.
+- **Simplicity**: Keep the Core layer focused on business logic, avoiding unnecessary complexity.
+- **Consistency**: Follow consistent naming conventions and patterns for entities, value objects, and services.
+- **Extensibility**: Design entities and services to be easily extendable for future requirements.
+- 
+
+
 ## Example: Defining an Entity
+**Why Define Both Generic and Non-Generic Entity Base Classes?**
+Generic Entity Base Class (Entity<TEntityId>)
+-	Purpose:
+Allows you to define entities with any type of identifier (e.g., int, Guid, string).
+-	Flexibility:Supports domain models where different entities may use different types for their primary keys.
+-	Type Safety:Prevents accidental assignment of IDs of the wrong type at compile time.
+
+Example:
+```C#
+public class Customer : Entity<int> { /* ... */ }
+public class Order : Entity<Guid> { /* ... */ }
+```
+ Non-Generic Entity Base Class (Entity)
+-Purpose:Provides a base for scenarios where the ID type is not important, not yet known, or not needed.
+-Framework/Reflection Support:Some frameworks, tools, or generic algorithms may require a non-generic base type for all entities (e.g., for reflection, serialization, or registration).
+-Common Functionality:Allows you to share logic (like domain event handling, validation, etc.) across all entities, regardless of their ID type.
+```C#
+public class AuditLog : Entity { /* ... */ }
+```
+ How They Work Together
+-The generic Entity<TEntityId> can inherit from the non-generic Entity, so all entities share a common base type.
+-This enables you to write code that works with all entities (using Entity), or with specific ID types (using Entity<TEntityId>).
+```C#
+public abstract class Entity : Validator, IAggregateRoot, IEntity { /* ... */ }
+public abstract class Entity<TEntityId> : Entity { /* ... */ }
+```
+##Summary Table
+| Use Case                        | Use Entity<TEntityId> | Use Entity      | |----------------------------------|:----------------------:|:-----------------:| | Entity with a specific ID type   | ✔️                     |                   | | Generic code for all entities    |                        | ✔️                | | Reflection, serialization, etc.  |                        | ✔️                | | Common logic for all entities    | ✔️ (via inheritance)    | ✔️                |
+
 
 ## Examples
 
@@ -171,7 +207,7 @@ namespace CleanArchitecture.Core.Interfaces
 
 ### 4. Implementing a Domain Service
 
-Domain services contain business logic that doesn�t naturally fit within an entity or value object. For example, a user registration service:
+Domain services contain business logic that doesn’t naturally fit within an entity or value object. For example, a user registration service:
 
 ```C#
 namespace CleanArchitecture.Core.Services 
