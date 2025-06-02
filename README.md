@@ -40,20 +40,53 @@ The Core layer defines the essential business rules and domain logic. It should 
 
 ### 1. Defining an Entity
 
-Entities are domain objects with a unique identity. For example, a `User` entity:
+Defining a Generic Entity and Applying Business Rules
+In Clean Architecture, entities should encapsulate their own identity and business rules. You can use a generic base class for entities with different types of identifiers, and enforce business rules using a simple rule pattern.
+1. **Define a Customer entity that inherits from the generic base and enforces a business rule (e.g., name must not be empty):**
+
 
 ```C#
-namespace CleanArchitecture.Core.Entities 
-{ 
-    public class User 
+namespace CleanArchitecture.Core.Entities
+{
+    public class Customer : Shared.Entity<int>
     {
-        public Guid Id { get; set; } 
-        public string Email { get; set; } = default!; 
-        public string Name { get; set; } = default!; } 
+        public string Name { get; private set; }
+
+        public Customer(int id, string name) : base(id)
+        {
+            CheckRule(new CustomerNameCannotBeEmpty(name));
+            Name = name;
+        }
+
+        private void CheckRule(IRule rule)
+        {
+            if (rule.IsBroken())
+                throw new Exceptions.DomainException(rule.Message);
+        }
     }
 }
 ```
+2. **Defining a Business Rule** 
 
+```C#
+namespace CleanArchitecture.Core.Validations
+{
+    public interface IRule
+    {
+        bool IsBroken();
+        string Message { get; }
+    }
+
+    public class CustomerNameCannotBeEmpty : IRule
+    {
+        private readonly string _name;
+        public CustomerNameCannotBeEmpty(string name) => _name = name;
+        public bool IsBroken() => string.IsNullOrWhiteSpace(_name);
+        public string Message => "Customer name cannot be empty.";
+    }
+}
+``` 
+ 
 ### 2. Creating a Value Object
 
 Value objects are immutable and compared by their values, not identity. For example, an `Email` value object:
