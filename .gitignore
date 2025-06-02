@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CleanArchitecture/CopilotIndices/17.14.719.50355
+/.vs/CleanArchitecture/FileContentIndex
+/.vs/CleanArchitecture/v17
+/.vs
+/CleanArchitecture/.vs
+/CleanArchitecture/Src/CleanArchitecture.Core/bin/Debug/net9.0
+/CleanArchitecture/Src/CleanArchitecture.Core/obj
+/CleanArchitecture/Tests/CleanArchitecture.CoreTest/bin
+/CleanArchitecture/Tests/CleanArchitecture.CoreTest/obj
