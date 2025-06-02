@@ -42,7 +42,7 @@ The Core layer defines the essential business rules and domain logic. It should 
 
 Defining a Generic Entity and Applying Business Rules
 In Clean Architecture, entities should encapsulate their own identity and business rules. You can use a generic base class for entities with different types of identifiers, and enforce business rules using a simple rule pattern.
-1. **Define a Customer entity that inherits from the generic base and enforces a business rule (e.g., name must not be empty):**
+1. **Define a Person entity that inherits from the generic base and enforces a business rule (e.g., name must not be empty):**
 
 
 ```C#
@@ -50,22 +50,22 @@ namespace CleanArchitecture.Core.Entities
 {
     public class Person(int id) : Entity<int>(id)
     {
-    public int PersonId { get; set; }
-    public string Name { get; set; } = string.Empty;
-    public int Age { get; set; }
-    public string Email { get; set; } = string.Empty;
+        public int PersonId { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int Age { get; set; }
+        public string Email { get; set; } = string.Empty;
 
-    public override List<Rule> CreateRules()
-    {
-        var rules = new List<Rule>
+        public override List<Rule> CreateRules()
         {
-            new CustomRule(nameof(Name), $"{nameof(Name)} validation failed.", ()=> PersonValidator.NameIsNotEmpty(Name)),
-            new RegexRule(nameof(Email), $"{nameof(Email)} must be valid", @"^[^@\s]+@[^@\s]+\.[^@\s]+$"),
-            new CustomRule(nameof(Age), $"{nameof(Age)} validation failed.", ()=> PersonValidator.IsAgeValid(Age)),
+            var rules = new List<Rule>
+            {
+                new CustomRule(nameof(Name), $"{nameof(Name)} validation failed.", ()=> PersonValidator.NameIsNotEmpty(Name)),
+                new RegexRule(nameof(Email), $"{nameof(Email)} must be valid", @"^[^@\s]+@[^@\s]+\.[^@\s]+$"),
+                new CustomRule(nameof(Age), $"{nameof(Age)} validation failed.", ()=> PersonValidator.IsAgeValid(Age)),
 
-        };
-        return rules;
-    }
+            };
+            return rules;
+        }
     }
 }
 ```
@@ -75,24 +75,23 @@ namespace CleanArchitecture.Core.Entities
 namespace CleanArchitecture.Core.Validations
 {
    public static class PersonValidator
-{
-    public static bool NameIsNotEmpty(string name)
-    {
-        return !string.IsNullOrWhiteSpace(name);
-    }
-    public static bool IsAgeValid(int age)
-    {
-        return age is >= 0 and <= 120; // Example validation for age
-    }
-}
-
+   {
+        public static bool NameIsNotEmpty(string name)
+        {
+            return !string.IsNullOrWhiteSpace(name);
+        }
+        public static bool IsAgeValid(int age)
+        {
+            return age is >= 0 and <= 120; // Example validation for age
+        }
+   }
 }
 ``` 
 3. **Defining a Validation Service Not Required **
 
 **Create a validation service to encapsulate validation logic:**
 ```C#
-   public class PersonValidationService : ValidationService<Person, int>
+    public class PersonValidationService : ValidationService<Person, int>
     {
         public override (bool IsValid, List<ValidationError> Errors) IsValid(Person? entity)
         {
@@ -151,6 +150,7 @@ namespace CleanArchitecture.Core.ValueObjects
             // Add validation logic here if (string.IsNullOrWhiteSpace(value) || !value.Contains("@")) 
             throw new ArgumentException("Invalid email address.", nameof(value)); return new Email(value); 
          } 
+     }
 }
 ```
 
