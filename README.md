@@ -54,23 +54,49 @@ Example:
 public class Customer : Entity<int> { /* ... */ }
 public class Order : Entity<Guid> { /* ... */ }
 ```
- Non-Generic Entity Base Class (Entity)
--Purpose:Provides a base for scenarios where the ID type is not important, not yet known, or not needed.
--Framework/Reflection Support:Some frameworks, tools, or generic algorithms may require a non-generic base type for all entities (e.g., for reflection, serialization, or registration).
--Common Functionality:Allows you to share logic (like domain event handling, validation, etc.) across all entities, regardless of their ID type.
+ 
+### Non-Generic Entity Base Class (`Entity`)
+
+- **Purpose:** Provides a base for scenarios where the ID type is not important, not yet known, or not needed.
+- **Framework/Reflection Support:** Some frameworks, tools, or generic algorithms may require a non-generic base type for all entities (e.g., for reflection, serialization, or registration).
+- **Common Functionality:** Allows you to share logic (like domain event handling, validation, etc.) across all entities, regardless of their ID type.
+
+**Example:**
+
 ```C#
 public class AuditLog : Entity { /* ... */ }
 ```
- How They Work Together
--The generic Entity<TEntityId> can inherit from the non-generic Entity, so all entities share a common base type.
--This enables you to write code that works with all entities (using Entity), or with specific ID types (using Entity<TEntityId>).
+ 
+### How They Work Together
+
+- The generic `Entity<TEntityId>` can inherit from the non-generic `Entity`, so all entities share a common base type.
+- This enables you to write code that works with all entities (using `Entity`), or with specific ID types (using `Entity<TEntityId>`).
+
+**Typical Inheritance:**
+
 ```C#
 public abstract class Entity : Validator, IAggregateRoot, IEntity { /* ... */ }
 public abstract class Entity<TEntityId> : Entity { /* ... */ }
-```
-##Summary Table
-| Use Case                        | Use Entity<TEntityId> | Use Entity      | |----------------------------------|:----------------------:|:-----------------:| | Entity with a specific ID type   | ✔️                     |                   | | Generic code for all entities    |                        | ✔️                | | Reflection, serialization, etc.  |                        | ✔️                | | Common logic for all entities    | ✔️ (via inheritance)    | ✔️                |
+``` 
 
+### Summary Table
+
+| Use Case                        | Use Entity<TEntityId> | Use Entity      |
+|----------------------------------|:--------------------:|:---------------:|
+| Entity with a specific ID type   | ✔️                   |                 |
+| Generic code for all entities    |                      | ✔️              |
+| Reflection, serialization, etc.  |                      | ✔️              |
+| Common logic for all entities    | ✔️ (via inheritance)  | ✔️              |
+
+---
+
+## Examples
+
+### 1. Defining an Entity and Applying Business Rules
+
+In Clean Architecture, entities should encapsulate their own identity and business rules. You can use a generic base class for entities with different types of identifiers, and enforce business rules using a simple rule pattern.
+
+**Define a Person entity that inherits from the generic base and enforces business rules:**
 
 ## Examples
 
@@ -78,7 +104,7 @@ public abstract class Entity<TEntityId> : Entity { /* ... */ }
 
 Defining a Generic Entity and Applying Business Rules
 In Clean Architecture, entities should encapsulate their own identity and business rules. You can use a generic base class for entities with different types of identifiers, and enforce business rules using a simple rule pattern.
-1. **Define a Person entity that inherits from the generic base and enforces a business rule (e.g., name must not be empty):**
+ **Define a Person entity that inherits from the generic base and enforces a business rule (e.g., name must not be empty):**
 
 
 ```C#
@@ -105,7 +131,7 @@ namespace CleanArchitecture.Core.Entities
     }
 }
 ```
-2. **Defining a Validtor ** 
+**Defining a Validtor ** 
 
 ```C#
 namespace CleanArchitecture.Core.Validations
@@ -123,7 +149,8 @@ namespace CleanArchitecture.Core.Validations
    }
 }
 ``` 
-3. **Defining a Validation Service Not Required **
+
+**(Optional) Defining a Validation Service:**
 
 **Create a validation service to encapsulate validation logic:**
 ```C#
@@ -135,7 +162,8 @@ namespace CleanArchitecture.Core.Validations
         }
     }
 ```
-4. ** Validating with and Without Validation Service **
+
+**Validating with and Without Validation Service:**
 
 ```C#
  [TestClass]

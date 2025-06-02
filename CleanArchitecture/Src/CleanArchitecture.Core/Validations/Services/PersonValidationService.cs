@@ -9,7 +9,9 @@ namespace CleanArchitecture.Core.Validations.Services
     {
         public override (bool IsValid, List<ValidationError> Errors) IsValid(Person? entity)
         {
-            return entity == null ? (false, [new ValidationError("Entity", "Entity is null")]) : base.IsValid(entity);
+            return entity == null ? 
+                (false, [new ValidationError("Entity", "Entity is null")]) 
+                : base.IsValid(entity);
         }
     }
 }
