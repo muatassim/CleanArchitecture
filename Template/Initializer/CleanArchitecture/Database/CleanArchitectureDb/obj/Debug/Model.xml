@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="160" />
+		</CustomData>
+		<CustomData Category="Reference" Type="SqlSchema">
+			<Metadata Name="FileName" Value="C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\ENTERPRISE\COMMON7\IDE\EXTENSIONS\MICROSOFT\SQLDB\EXTENSIONS\SQLSERVER\160\SQLSCHEMAS\MASTER.DACPAC" />
+			<Metadata Name="LogicalName" Value="master.dacpac" />
+			<Metadata Name="ExternalParts" Value="[master]" />
+			<Metadata Name="SuppressMissingDependenciesErrors" Value="False" />
+		</CustomData>
+		<CustomData Category="Reference" Type="SqlSchema">
+			<Metadata Name="FileName" Value="C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\ENTERPRISE\COMMON7\IDE\EXTENSIONS\MICROSOFT\SQLDB\EXTENSIONS\SQLSERVER\160\SQLSCHEMAS\MSDB.DACPAC" />
+			<Metadata Name="LogicalName" Value="msdb.dacpac" />
+			<Metadata Name="ExternalParts" Value="[msdb]" />
+			<Metadata Name="SuppressMissingDependenciesErrors" Value="False" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="CleanArchitectureDb.dll" />
+			<Metadata Name="FileName" Value="C:\TUTORIALS_USEFULCODES\CLEAN-ARCHITECTURE\TEMPLATE\INITIALIZER\CLEANARCHITECTURE\DATABASE\CLEANARCHITECTUREDB\OBJ\DEBUG\CLEANARCHITECTUREDB.DLL" />
+			<Metadata Name="AssemblyName" Value="CleanArchitectureDb" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Initializer\CleanArchitecture\Database\CleanArchitectureDb\obj\Debug\CleanArchitectureDb.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable">
+			<Metadata Name="DeployToDatabase" Value="" />
+			<Metadata Name="UserPassword" Value="" />
+		</CustomData>
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions" Disambiguator="1">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlRoleMembership">
+			<Relationship Name="Member">
+				<Entry>
+					<References Name="[DataTransferUser]" Disambiguator="7" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Role">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[db_datawriter]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlRoleMembership">
+			<Relationship Name="Member">
+				<Entry>
+					<References Name="[DataTransferUser]" Disambiguator="7" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Role">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[db_datareader]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlLogin" Name="[DataTransferUser]">
+			<Property Name="Password" Value="CHNWdJskkS@@1q$DZfla" />
+			<Annotation Type="GloballyScoped" />
+		</Element>
+		<Element Type="SqlUser" Name="[DataTransferUser]" Disambiguator="7">
+			<Property Name="LoginIdentifierScript">
+				<Value><![CDATA[[DataTransferUser]]]></Value>
+			</Property>
+			<Property Name="AuthenticationType" Value="1" />
+			<Relationship Name="Login">
+				<Entry>
+					<References Name="[DataTransferUser]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[Categories]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Categories].[CategoryID]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Categories].[CategoryName]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="15" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Categories].[Description]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[ntext]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="17" />
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Filegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="FilegroupForTextImage">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[CreateOrUpdateUser]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+ SET NOCOUNT ON;
+ BEGIN TRY
+	  BEGIN TRANSACTION; 
+        Print ('Creating User '+@login)
+        declare @roleSql nvarchar(max);
+        declare @alterRoleSql nvarchar(max);
+        declare @viewGrantSql nvarchar(max);
+        declare @procedureGrantSql nvarchar(max);
+        DECLARE @NewLineChar AS CHAR(3) = SPACE(13) + CHAR(10)
+        set @roleSql = 'IF NOT EXISTS(SELECT * FROM sys.sysusers WHERE name = '''+@login+''')'+ @NewLineChar +  
+			        ' CREATE USER ['+@login+']'+ @NewLineChar +     
+                    ' ALTER USER ['+@login+'] WITH LOGIN = ['+@login+']'+ @NewLineChar +  
+                    ' ALTER USER ['+@login+'] WITH DEFAULT_SCHEMA = [dbo]'+ @NewLineChar +   
+                    ' ALTER USER ['+@login+'] WITH NAME = ['+@login+'] '+ @NewLineChar ;
+			
+        set @alterRoleSql = 
+                     ' ALTER ROLE [db_datawriter] ADD MEMBER ['+@login+']'+ @NewLineChar +  
+                     ' ALTER ROLE [db_datareader] ADD MEMBER ['+@login+']'+ @NewLineChar ;
+
+        SET @procedureGrantSql=''; 
+        select @procedureGrantSql+='GRANT EXECUTE ON ['+ CONVERT(varchar(255),[s].[name]) +'].['+ CONVERT(VARCHAR(255),[obj].[name])  +'] TO ['+@login+']'+ @NewLineChar 
+        from
+            [sys].[all_objects] as [obj]
+        inner join
+            [sys].[schemas] as [s] ON [obj].[schema_id] = [s].[schema_id]
+        where [obj].[type] in ('P')
+        AND [s].[name] NOT IN ('SYS','INFORMATION_SCHEMA') 
+
+        SET @viewGrantSql=''; 
+        select @viewGrantSql+='GRANT Select ON ['+ CONVERT(VARCHAR(255),[s].[name]) +'].['+ CONVERT(VARCHAR(255),[obj].[name])  +'] TO ['+@login+']'+ @NewLineChar 
+        from
+            [sys].[all_objects] as [obj]
+        inner join
+            [sys].[schemas] as [s] ON [obj].[schema_id] = [s].[schema_id]
+        where [obj].[type] in ('V')
+        AND [s].[name] NOT IN ('SYS','INFORMATION_SCHEMA') 
+
+
+        --Select @roleSql; 
+        --Select @alterRoleSql;
+       -- Select @procedureGrantSql;
+       -- Select @viewGrantSql;
+        EXEC sp_executesql @roleSql 
+        EXEC sp_executesql @alterRoleSql 
+        EXEC sp_executesql @procedureGrantSql
+        EXEC sp_executesql @viewGrantSql
+        Print ('End Creating User '+@login)
+ COMMIT TRANSACTION;
+ END TRY
+ BEGIN CATCH
+	   IF XACT_STATE() <> 0
+	   ROLLBACK TRANSACTION;
+    IF ERROR_PROCEDURE() <> OBJECT_NAME(@@PROCID)
+    DECLARE @thisErrorMessage NVARCHAR(4000);
+    DECLARE @thisErrorSeverity INT;    DECLARE @thisErrorState INT;
+    DECLARE @thisErrorNumber INT;
+    SET @thisErrorMessage = ERROR_MESSAGE()+ RTRIM(CONVERT(CHAR,ERROR_PROCEDURE()))
+    SET @thisErrorSeverity = ERROR_SEVERITY()
+    SET @thisErrorState = ERROR_STATE()
+    SET @thisErrorNumber= ERROR_NUMBER()
+    DECLARE @thisProcedureErrorID INT; 
+    RAISERROR (@thisErrorMessage,@thisErrorSeverity, @thisErrorState );
+  END CATCH
+ END;]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[char]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CreateOrUpdateUser].[@login]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="master.dacpac" Name="[master]|[sys].[all_objects]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="master.dacpac" Name="[master]|[sys].[schemas]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="master.dacpac" Name="[master]|[sys].[all_objects].[schema_id]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="master.dacpac" Name="[master]|[sys].[schemas].[schema_id]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[varchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="master.dacpac" Name="[master]|[sys].[schemas].[name]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[varchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="master.dacpac" Name="[master]|[sys].[all_objects].[name]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="master.dacpac" Name="[master]|[sys].[all_objects].[type]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[varchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[varchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="master.dacpac" Name="[master]|[sys].[sp_executesql]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[char]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[CreateOrUpdateUser].[@login]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="3031" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[CreateOrUpdateUser]&#x9; &#xD;&#xA;    @login nvarchar(100)&#xD;&#xA;WITH EXECUTE AS CALLER&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Categories]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[Categories].[CategoryID]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[Categories]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Filegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="17" />
+		</Element>
+		<Element Type="SqlPermissionStatement" Name="[Grant.Connect.Database].[DataTransferUser].[dbo]">
+			<Property Name="Permission" Value="1035" />
+			<Relationship Name="Grantee">
+				<Entry>
+					<References Name="[DataTransferUser]" Disambiguator="7" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="SecuredObject">
+				<Entry>
+					<References Disambiguator="1" />
+				</Entry>
+			</Relationship>
+		</Element>
+	</Model>
+</DataSchemaModel>

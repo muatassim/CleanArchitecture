@@ -1,0 +1,58 @@
+2025-05-30T22:29:38.7027082+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.1+317f9820cedac7ee34ff1bd7d0b8eaab1f930052
+2025-05-30T22:29:38.7108862+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-05-30T22:29:38.7116657+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-05-30T22:29:38.7116692+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 22:29:38.688
+2025-05-30T22:29:38.7127071+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 42344
+2025-05-30T22:29:38.7127225+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.5
+2025-05-30T22:29:38.7127298+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.5\System.Private.CoreLib.dll
+2025-05-30T22:29:38.7127366+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-05-30T22:29:38.7127641+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApiTests\bin\Debug\net9.0\CleanArchitecture.ApiTests.dll
+2025-05-30T22:29:38.7128176+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApiTests\bin\Debug\net9.0\Log --results-directory C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\TestResults --client-port 64464'
+2025-05-30T22:29:38.7136318+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-05-30T22:29:38.7274892+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-05-30T22:29:38.7356470+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-05-30T22:29:38.8286466+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-05-30T22:29:38.8460401+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-05-30T22:29:38.8487203+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-05-30T22:29:38.8798392+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 6 tests from source C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApiTests\bin\Debug\net9.0\CleanArchitecture.ApiTests.dll
+2025-05-30T22:29:38.8949748+00:00 mstest-trace INFORMATION Created unit-test runner C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApiTests\bin\Debug\net9.0\CleanArchitecture.ApiTests.dll
+2025-05-30T22:29:38.8986014+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApiTests\bin\Debug\net9.0\CleanArchitecture.ApiTests.dll (Workers: 32, Scope: MethodLevel)
+2025-05-30T22:29:38.9033061+00:00 mstest-trace INFORMATION Executing test Add_Get_Update_Delete_Categories_Test
+2025-05-30T22:29:45.5222406+00:00 mstest-trace INFORMATION Executed test Add_Get_Update_Delete_Categories_Test
+2025-05-30T22:29:45.5255758+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApiTests\bin\Debug\net9.0\CleanArchitecture.ApiTests.dll
+2025-05-30T22:29:45.5392621+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost WARNING [ServerTestHost.OnTaskSchedulerUnobservedTaskException] Unhandled exception: System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (The request was aborted.)
+ ---> System.IO.IOException: The request was aborted.
+   at System.Net.Http.Http2Connection.ThrowRequestAborted(Exception innerException)
+   at System.Net.Http.Http2Connection.Http2Stream.TryReadFromBuffer(Span`1 buffer, Boolean partOfSyncRead)
+   at System.Net.Http.Http2Connection.Http2Stream.ReadDataAsync(Memory`1 buffer, HttpResponseMessage responseMessage, CancellationToken cancellationToken)
+   at k8s.LineSeparatedHttpContent.CancelableStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadBufferAsync(CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadLineAsyncInternal(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2025-05-30T22:29:45.5399509+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost WARNING [ServerTestHost.OnTaskSchedulerUnobservedTaskException] Unhandled exception: System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (The request was aborted.)
+ ---> System.IO.IOException: The request was aborted.
+   at System.Net.Http.Http2Connection.ThrowRequestAborted(Exception innerException)
+   at System.Net.Http.Http2Connection.Http2Stream.TryReadFromBuffer(Span`1 buffer, Boolean partOfSyncRead)
+   at System.Net.Http.Http2Connection.Http2Stream.ReadDataAsync(Memory`1 buffer, HttpResponseMessage responseMessage, CancellationToken cancellationToken)
+   at k8s.LineSeparatedHttpContent.CancelableStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadBufferAsync(CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadLineAsyncInternal(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2025-05-30T22:29:45.5406962+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost WARNING [ServerTestHost.OnTaskSchedulerUnobservedTaskException] Unhandled exception: System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (The request was aborted.)
+ ---> System.IO.IOException: The request was aborted.
+   at System.Net.Http.Http2Connection.ThrowRequestAborted(Exception innerException)
+   at System.Net.Http.Http2Connection.Http2Stream.TryReadFromBuffer(Span`1 buffer, Boolean partOfSyncRead)
+   at System.Net.Http.Http2Connection.Http2Stream.ReadDataAsync(Memory`1 buffer, HttpResponseMessage responseMessage, CancellationToken cancellationToken)
+   at k8s.LineSeparatedHttpContent.CancelableStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadBufferAsync(CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadLineAsyncInternal(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2025-05-30T22:29:45.5411794+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost WARNING [ServerTestHost.OnTaskSchedulerUnobservedTaskException] Unhandled exception: System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (The request was aborted.)
+ ---> System.IO.IOException: The request was aborted.
+   at System.Net.Http.Http2Connection.ThrowRequestAborted(Exception innerException)
+   at System.Net.Http.Http2Connection.Http2Stream.TryReadFromBuffer(Span`1 buffer, Boolean partOfSyncRead)
+   at System.Net.Http.Http2Connection.Http2Stream.ReadDataAsync(Memory`1 buffer, HttpResponseMessage responseMessage, CancellationToken cancellationToken)
+   at k8s.LineSeparatedHttpContent.CancelableStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadBufferAsync(CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadLineAsyncInternal(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---

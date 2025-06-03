@@ -1,0 +1,14 @@
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\obj\Debug\CleanArchitectureDb.sqlproj.AssemblyReference.cache
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\obj\Debug\CleanArchitectureDb.dll
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\obj\Debug\CleanArchitectureDb.pdb
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\bin\Debug\CleanArchitectureDb.dacpac
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\bin\Debug\Scripts\Post-Deployment\users\AddUserAccess.sql
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\bin\Debug\Scripts\Post-Deployment\users\LoginScript.sql
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\bin\Debug\Scripts\Post-Deployment\users\UserScript.sql
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\bin\Debug\Scripts\Post-Deployment\dbo\Categories.sql
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\bin\Debug\CleanArchitectureDb.dll
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\bin\Debug\CleanArchitectureDb.pdb
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\obj\Debug\Model.xml
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\obj\Debug\refactor.xml
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\obj\Debug\postdeploy.sql
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\Database\CleanArchitectureDb\obj\Debug\predeploy.sql

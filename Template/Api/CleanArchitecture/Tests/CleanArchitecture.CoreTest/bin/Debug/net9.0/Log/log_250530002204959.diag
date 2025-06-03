@@ -1,0 +1,17 @@
+2025-05-30T00:22:04.9627114+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.1+317f9820cedac7ee34ff1bd7d0b8eaab1f930052
+2025-05-30T00:22:04.9698002+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-05-30T00:22:04.9704744+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-05-30T00:22:04.9704777+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 00:22:04.948
+2025-05-30T00:22:04.9713864+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 59136
+2025-05-30T00:22:04.9713987+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.5
+2025-05-30T00:22:04.9714039+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.5\System.Private.CoreLib.dll
+2025-05-30T00:22:04.9714093+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-05-30T00:22:04.9714350+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T00:22:04.9714785+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\Log --results-directory C:\Output\CleanArchitecture\TestResults --client-port 50661'
+2025-05-30T00:22:04.9722528+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-05-30T00:22:04.9913906+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-05-30T00:22:04.9993723+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-05-30T00:22:05.0843583+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-05-30T00:22:05.0918017+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter WARNING Runsettings attribute 'MaxCpuCount' is not supported by Microsoft.Testing.Platform and will be ignored
+2025-05-30T00:22:05.1016568+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-05-30T00:22:05.1990255+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 32 tests from source C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XuuU97pgdlc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\muata\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

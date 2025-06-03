@@ -1,0 +1,46 @@
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+namespace CleanArchitecture.ApiTests
+{
+    public class AppHost
+    {
+        private static IHostBuilder CreateHostBuilder(string[] args)
+        {
+            var hostBuilder = Host.CreateDefaultBuilder(args)
+                .ConfigureServices((context, services) =>
+                {
+                })
+                .ConfigureLogging(logging =>
+                {
+                    logging.ClearProviders();
+                    logging.AddConsole();
+                    var fileName = $"{DateTime.Now:HHmmss}";
+                    logging.AddFile($"Logs/Ui-{DateTime.Now:yyyyMMdd}-{fileName}.txt", LogLevel.Information);
+                });
+            Configuration = InitializeConfiguration();
+            return hostBuilder;
+        }
+        private static IConfiguration InitializeConfiguration()
+        {
+            return new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .AddUserSecrets<AppHost>(optional: true, reloadOnChange: true)
+                .Build();
+        }
+        private static IHost? _host;
+        public static IConfiguration Configuration { get; set; } = null!;
+        public static void Initialize(string[]? args)
+        {
+            if (args != null)
+                Console.WriteLine(args);
+            _host ??= CreateHostBuilder([]).Build();
+        }
+        public static IServiceProvider GetServiceProvider()
+        {
+            Initialize(null);
+            return _host?.Services ?? throw new InvalidOperationException("Host has not been initialized.");
+        }
+    }
+}

@@ -1,0 +1,519 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\src\\cleanarchitecture.core\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:src\\cleanarchitecture.core\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\src\\cleanarchitecture.core\\abstractions\\specifications\\genericsearchspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:src\\cleanarchitecture.core\\abstractions\\specifications\\genericsearchspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\tests\\abstractions\\specifications\\specificationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\tests\\abstractions\\specifications\\specificationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\tests\\shared\\hashgeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\tests\\shared\\hashgeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\src\\cleanarchitecture.core\\shared\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:src\\cleanarchitecture.core\\shared\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\tests\\personentitytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\tests\\personentitytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\src\\cleanarchitecture.core\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:src\\cleanarchitecture.core\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\tests\\validations\\rules\\customruletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\tests\\validations\\rules\\customruletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\data\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\data\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\data\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\data\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\src\\cleanarchitecture.core\\validations\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:src\\cleanarchitecture.core\\validations\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\src\\cleanarchitecture.core\\validations\\rules\\customrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:src\\cleanarchitecture.core\\validations\\rules\\customrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\data\\testvalidationentitywithid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\data\\testvalidationentitywithid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\tests\\validations\\rules\\regexruletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\tests\\validations\\rules\\regexruletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\data\\entitydatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\data\\entitydatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\src\\cleanarchitecture.core\\interfaces\\messaging\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:src\\cleanarchitecture.core\\interfaces\\messaging\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\src\\cleanarchitecture.core\\cleanarchitecture.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E087C2FF-07C1-4BA4-BE1D-B5B0B8E49A6F}|Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj|solutionrelative:src\\cleanarchitecture.core\\cleanarchitecture.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\cleanarchitecture\\tests\\cleanarchitecture.coretest\\cleanarchitecture.coretest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7D561FB-E7F8-4302-B14D-513494C0E380}|Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj|solutionrelative:tests\\cleanarchitecture.coretest\\cleanarchitecture.coretest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 41,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Abstractions\\Entity.cs",
+              "RelativeDocumentMoniker": "Src\\CleanArchitecture.Core\\Abstractions\\Entity.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Abstractions\\Entity.cs",
+              "RelativeToolTip": "Src\\CleanArchitecture.Core\\Abstractions\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:29:17.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AgIAAF4BAAAAAAAAAAAAAKUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-02T15:20:17.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericSearchSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Abstractions\\Specifications\\GenericSearchSpecification.cs",
+              "RelativeDocumentMoniker": "Src\\CleanArchitecture.Core\\Abstractions\\Specifications\\GenericSearchSpecification.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Abstractions\\Specifications\\GenericSearchSpecification.cs",
+              "RelativeToolTip": "Src\\CleanArchitecture.Core\\Abstractions\\Specifications\\GenericSearchSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:28:57.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpecificationTests.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\Abstractions\\Specifications\\SpecificationTests.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\Tests\\Abstractions\\Specifications\\SpecificationTests.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\Abstractions\\Specifications\\SpecificationTests.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\Tests\\Abstractions\\Specifications\\SpecificationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:28:48.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchRequest.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Shared\\SearchRequest.cs",
+              "RelativeDocumentMoniker": "Src\\CleanArchitecture.Core\\Shared\\SearchRequest.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Shared\\SearchRequest.cs",
+              "RelativeToolTip": "Src\\CleanArchitecture.Core\\Shared\\SearchRequest.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:28:14.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "Src\\CleanArchitecture.Core\\Entities\\Person.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Entities\\Person.cs",
+              "RelativeToolTip": "Src\\CleanArchitecture.Core\\Entities\\Person.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:20:27.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\AppHost.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\AppHost.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\AppHost.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\AppHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:15:45.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonEntityTest.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\PersonEntityTest.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\Tests\\PersonEntityTest.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\PersonEntityTest.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\Tests\\PersonEntityTest.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:15:34.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Data\\Person.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\Data\\Person.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Data\\Person.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\Data\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:12:17.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PersonValidator.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Data\\PersonValidator.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\Data\\PersonValidator.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Data\\PersonValidator.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\Data\\PersonValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:49:32.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Rule.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Validations\\Rule.cs",
+              "RelativeDocumentMoniker": "Src\\CleanArchitecture.Core\\Validations\\Rule.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Validations\\Rule.cs",
+              "RelativeToolTip": "Src\\CleanArchitecture.Core\\Validations\\Rule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:58:35.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomRule.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Validations\\Rules\\CustomRule.cs",
+              "RelativeDocumentMoniker": "Src\\CleanArchitecture.Core\\Validations\\Rules\\CustomRule.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Validations\\Rules\\CustomRule.cs",
+              "RelativeToolTip": "Src\\CleanArchitecture.Core\\Validations\\Rules\\CustomRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:55:55.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomRuleTests.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\Validations\\Rules\\CustomRuleTests.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\Tests\\Validations\\Rules\\CustomRuleTests.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\Validations\\Rules\\CustomRuleTests.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\Tests\\Validations\\Rules\\CustomRuleTests.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:45:20.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HashGeneratorTests.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\Shared\\HashGeneratorTests.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\Tests\\Shared\\HashGeneratorTests.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\Shared\\HashGeneratorTests.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\Tests\\Shared\\HashGeneratorTests.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:39:59.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TestValidationEntityWithId.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Data\\TestValidationEntityWithId.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\Data\\TestValidationEntityWithId.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Data\\TestValidationEntityWithId.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\Data\\TestValidationEntityWithId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:49:03.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegexRuleTests.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\Validations\\Rules\\RegexRuleTests.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\Tests\\Validations\\Rules\\RegexRuleTests.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Tests\\Validations\\Rules\\RegexRuleTests.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\Tests\\Validations\\Rules\\RegexRuleTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:46:13.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EntityDataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Data\\EntityDataHelper.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\Data\\EntityDataHelper.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\Data\\EntityDataHelper.cs",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\Data\\EntityDataHelper.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:40:02.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Interfaces\\Messaging\\ICommand.cs",
+              "RelativeDocumentMoniker": "Src\\CleanArchitecture.Core\\Interfaces\\Messaging\\ICommand.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\Interfaces\\Messaging\\ICommand.cs",
+              "RelativeToolTip": "Src\\CleanArchitecture.Core\\Interfaces\\Messaging\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:39:13.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CleanArchitecture.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+              "RelativeDocumentMoniker": "Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+              "RelativeToolTip": "Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-30T12:44:55.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CleanArchitecture.CoreTest.csproj",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\CleanArchitecture\\Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj",
+              "RelativeToolTip": "Tests\\CleanArchitecture.CoreTest\\CleanArchitecture.CoreTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-30T12:44:42.119Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

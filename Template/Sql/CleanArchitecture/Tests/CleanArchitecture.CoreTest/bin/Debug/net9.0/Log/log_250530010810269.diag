@@ -1,0 +1,26 @@
+2025-05-30T01:08:10.2733707+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.1+317f9820cedac7ee34ff1bd7d0b8eaab1f930052
+2025-05-30T01:08:10.2803298+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-05-30T01:08:10.2810250+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-05-30T01:08:10.2810288+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 01:08:10.234
+2025-05-30T01:08:10.2920031+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 6188
+2025-05-30T01:08:10.2920287+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.5
+2025-05-30T01:08:10.2920413+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.5\System.Private.CoreLib.dll
+2025-05-30T01:08:10.2920520+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-05-30T01:08:10.2920863+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T01:08:10.2921471+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\Log --results-directory C:\Output\CleanArchitecture\TestResults --client-port 51420'
+2025-05-30T01:08:10.2969414+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-05-30T01:08:10.3248089+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-05-30T01:08:10.3483746+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-05-30T01:08:10.8129333+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-05-30T01:08:10.8824814+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-05-30T01:08:10.8887210+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-05-30T01:08:10.9554666+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 60 tests from source C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T01:08:10.9723709+00:00 mstest-trace INFORMATION Created unit-test runner C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T01:08:10.9758132+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll (Workers: 32, Scope: MethodLevel)
+2025-05-30T01:08:10.9857909+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenLengthAboveMax
+2025-05-30T01:09:06.1470431+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenLengthAboveMax
+2025-05-30T01:09:06.1483170+00:00 mstest-trace INFORMATION MSTestExecutor:Test CleanArchitecture.CoreTest.Tests.Validations.Rules.FieldLengthBetweenRuleTests.ValidateRule_ReturnsFalse_WhenLengthAboveMax failed. ErrorMessage:Assert.IsFalse failed. , ErrorStackTrace:   at CleanArchitecture.CoreTest.Tests.Validations.Rules.FieldLengthBetweenRuleTests.ValidateRule_ReturnsFalse_WhenLengthAboveMax() in C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\Tests\Validations\Rules\FieldLengthBetweenRuleTests.cs:line 32
+   at InvokeStub_FieldLengthBetweenRuleTests.ValidateRule_ReturnsFalse_WhenLengthAboveMax(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-05-30T01:09:06.1496968+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll

@@ -1,0 +1,142 @@
+2025-06-02T16:46:19.6399441+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.1+317f9820cedac7ee34ff1bd7d0b8eaab1f930052
+2025-06-02T16:46:19.6484170+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-06-02T16:46:19.6493589+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-06-02T16:46:19.6493626+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 16:46:19.619
+2025-06-02T16:46:19.6506850+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 19592
+2025-06-02T16:46:19.6507113+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.5
+2025-06-02T16:46:19.6507229+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.5\System.Private.CoreLib.dll
+2025-06-02T16:46:19.6507300+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-06-02T16:46:19.6507698+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\muata\source\repos\muatassim\CleanArchitecture\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-06-02T16:46:19.6508630+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\muata\source\repos\muatassim\CleanArchitecture\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\Log --results-directory C:\Users\muata\source\repos\muatassim\CleanArchitecture\CleanArchitecture\TestResults --client-port 55966'
+2025-06-02T16:46:19.6519296+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-06-02T16:46:19.6673670+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-06-02T16:46:19.6790160+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-06-02T16:46:19.8069901+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-06-02T16:46:19.8410656+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-06-02T16:46:19.8442344+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-06-02T16:46:19.8854858+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 61 tests from source C:\Users\muata\source\repos\muatassim\CleanArchitecture\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-06-02T16:46:19.9046337+00:00 mstest-trace INFORMATION Created unit-test runner C:\Users\muata\source\repos\muatassim\CleanArchitecture\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-06-02T16:46:19.9105907+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Users\muata\source\repos\muatassim\CleanArchitecture\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll (Workers: 12, Scope: MethodLevel)
+2025-06-02T16:46:19.9180686+00:00 mstest-trace INFORMATION Executing test ValidatePersonRulesTest
+2025-06-02T16:46:19.9180689+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenLengthBelowMin
+2025-06-02T16:46:19.9180691+00:00 mstest-trace INFORMATION Executing test GetErrors_ReturnsEmptyList_WhenInputIsEmpty
+2025-06-02T16:46:19.9180729+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenDelegateReturnsFalse
+2025-06-02T16:46:19.9180791+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenDelegateReturnsTrue
+2025-06-02T16:46:19.9180908+00:00 mstest-trace INFORMATION Executing test ValidatePersonRulesServiceTest
+2025-06-02T16:46:19.9181052+00:00 mstest-trace INFORMATION Executing test GetErrors_ReturnsEmptyList_WhenInputIsNull
+2025-06-02T16:46:19.9181229+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenRecordIsUnique
+2025-06-02T16:46:19.9181165+00:00 mstest-trace INFORMATION Executing test CustomRule_SetsPropertyName_And_Description
+2025-06-02T16:46:19.9181039+00:00 mstest-trace INFORMATION Executing test GetErrors_ConvertsValidationErrorsToErrors
+2025-06-02T16:46:19.9181305+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenLengthWithinRange
+2025-06-02T16:46:19.9181424+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenLengthAboveMax
+2025-06-02T16:46:20.4066315+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenLengthWithinRange
+2025-06-02T16:46:20.4066409+00:00 mstest-trace INFORMATION Executed test GetErrors_ReturnsEmptyList_WhenInputIsEmpty
+2025-06-02T16:46:20.4066400+00:00 mstest-trace INFORMATION Executed test CustomRule_SetsPropertyName_And_Description
+2025-06-02T16:46:20.4066471+00:00 mstest-trace INFORMATION Executed test GetErrors_ReturnsEmptyList_WhenInputIsNull
+2025-06-02T16:46:20.4066315+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenRecordIsUnique
+2025-06-02T16:46:20.4066348+00:00 mstest-trace INFORMATION Executed test GetErrors_ConvertsValidationErrorsToErrors
+2025-06-02T16:46:20.4066533+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenLengthAboveMax
+2025-06-02T16:46:20.4066609+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenDelegateReturnsFalse
+2025-06-02T16:46:20.4066315+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenLengthBelowMin
+2025-06-02T16:46:20.4066316+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenDelegateReturnsTrue
+2025-06-02T16:46:20.4087783+00:00 mstest-trace INFORMATION Executed test ValidatePersonRulesTest
+2025-06-02T16:46:20.4090218+00:00 mstest-trace INFORMATION Executed test ValidatePersonRulesServiceTest
+2025-06-02T16:46:20.4107494+00:00 mstest-trace INFORMATION Executing test ValidateRule_WebAddressValidator
+2025-06-02T16:46:20.4107528+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenValueIsNotNullOrEmpty
+2025-06-02T16:46:20.4107528+00:00 mstest-trace INFORMATION Executing test ValidateRule_PhoneValidator
+2025-06-02T16:46:20.4107558+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenValueIsEmpty
+2025-06-02T16:46:20.4107561+00:00 mstest-trace INFORMATION Executing test ValidateRule_EmailValidator
+2025-06-02T16:46:20.4107582+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenValueIsNull
+2025-06-02T16:46:20.4107589+00:00 mstest-trace INFORMATION Executing test GenerateHash_ReturnsConsistentHash_ForSameInput
+2025-06-02T16:46:20.4109658+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenValueDoesNotMatchRegex
+2025-06-02T16:46:20.4109749+00:00 mstest-trace INFORMATION Executing test GenerateHash_ReturnsDifferentHash_ForDifferentInput
+2025-06-02T16:46:20.4109862+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenLengthIsBelowOrEqualToMax
+2025-06-02T16:46:20.4109665+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenLengthIsAboveMax
+2025-06-02T16:46:20.4109966+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenValueMatchesRegex
+2025-06-02T16:46:20.4112293+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenValueIsNotNullOrEmpty
+2025-06-02T16:46:20.4112395+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenValueIsNull
+2025-06-02T16:46:20.4112435+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenValueIsEmpty
+2025-06-02T16:46:20.4112551+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenValueDoesNotMatchRegex
+2025-06-02T16:46:20.4112936+00:00 mstest-trace INFORMATION Executing test GenerateHash_ReturnsHash_ForEmptyString
+2025-06-02T16:46:20.4113115+00:00 mstest-trace INFORMATION Executing test GenerateHash_ReturnsHash_ForUnicodeString
+2025-06-02T16:46:20.4113193+00:00 mstest-trace INFORMATION Executing test GenerateHash_ThrowsArgumentNullException_ForNullInput
+2025-06-02T16:46:20.4113307+00:00 mstest-trace INFORMATION Executing test DomainEventIdempotencyKeyGeneratorIsNotNull
+2025-06-02T16:46:20.4113514+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenValueMatchesRegex
+2025-06-02T16:46:20.4113547+00:00 mstest-trace INFORMATION Executed test GenerateHash_ReturnsConsistentHash_ForSameInput
+2025-06-02T16:46:20.4113580+00:00 mstest-trace INFORMATION Executed test ValidateRule_EmailValidator
+2025-06-02T16:46:20.4113745+00:00 mstest-trace INFORMATION Executed test ValidateRule_PhoneValidator
+2025-06-02T16:46:20.4114217+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_FromDomainEvent_ProducesConsistentHash
+2025-06-02T16:46:20.4114239+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_FromDomainEvent_ProducesDifferentHashForDifferentEvents
+2025-06-02T16:46:20.4114324+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_FromJson_ProducesSameHashAsFromDomainEvent
+2025-06-02T16:46:20.4114474+00:00 mstest-trace INFORMATION Executing test Success_CreatesSuccessfulResult
+2025-06-02T16:46:20.4115368+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenLengthIsBelowOrEqualToMax
+2025-06-02T16:46:20.4115497+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenLengthIsAboveMax
+2025-06-02T16:46:20.4115881+00:00 mstest-trace INFORMATION Executed test GenerateHash_ReturnsDifferentHash_ForDifferentInput
+2025-06-02T16:46:20.4116113+00:00 mstest-trace INFORMATION Executed test GenerateHash_ReturnsHash_ForUnicodeString
+2025-06-02T16:46:20.4116152+00:00 mstest-trace INFORMATION Executing test Failure_CreatesFailedResult_WithMultipleErrors
+2025-06-02T16:46:20.4116159+00:00 mstest-trace INFORMATION Executed test GenerateHash_ReturnsHash_ForEmptyString
+2025-06-02T16:46:20.4116265+00:00 mstest-trace INFORMATION Executing test Failure_CreatesFailedResult_WithSingleError
+2025-06-02T16:46:20.4116549+00:00 mstest-trace INFORMATION Executing test SuccessT_CreatesSuccessfulResultWithValue
+2025-06-02T16:46:20.4116876+00:00 mstest-trace INFORMATION Executing test FailureT_CreatesFailedResultWithError
+2025-06-02T16:46:20.4116956+00:00 mstest-trace INFORMATION Executing test FailureT_CreatesFailedResultWithMultipleErrors
+2025-06-02T16:46:20.4118008+00:00 mstest-trace INFORMATION Executed test ValidateRule_WebAddressValidator
+2025-06-02T16:46:20.4118686+00:00 mstest-trace INFORMATION Executing test Create_ReturnsSuccess_WhenValueIsNotNull
+2025-06-02T16:46:20.4119962+00:00 mstest-trace INFORMATION Executed test Success_CreatesSuccessfulResult
+2025-06-02T16:46:20.4120670+00:00 mstest-trace INFORMATION Executing test Create_ReturnsFailure_WhenValueIsNull
+2025-06-02T16:46:20.4120960+00:00 mstest-trace INFORMATION Executed test Failure_CreatesFailedResult_WithSingleError
+2025-06-02T16:46:20.4121553+00:00 mstest-trace INFORMATION Executing test ImplicitConversion_WorksForSuccess
+2025-06-02T16:46:20.4122361+00:00 mstest-trace INFORMATION Executed test SuccessT_CreatesSuccessfulResultWithValue
+2025-06-02T16:46:20.4122998+00:00 mstest-trace INFORMATION Executing test Constructor_ThrowsForInvalidState_FailureWithNoErrors
+2025-06-02T16:46:20.4123029+00:00 mstest-trace INFORMATION Executed test Failure_CreatesFailedResult_WithMultipleErrors
+2025-06-02T16:46:20.4123376+00:00 mstest-trace INFORMATION Executed test Create_ReturnsSuccess_WhenValueIsNotNull
+2025-06-02T16:46:20.4123568+00:00 mstest-trace INFORMATION Executed test ImplicitConversion_WorksForSuccess
+2025-06-02T16:46:20.4123667+00:00 mstest-trace INFORMATION Executed test Create_ReturnsFailure_WhenValueIsNull
+2025-06-02T16:46:20.4123758+00:00 mstest-trace INFORMATION Executing test IsValid_ReturnsTrue_WhenEntityIsValid
+2025-06-02T16:46:20.4123930+00:00 mstest-trace INFORMATION Executing test IsValid_ReturnsFalse_WhenEntityIsInvalid
+2025-06-02T16:46:20.4124137+00:00 mstest-trace INFORMATION Executing test IsValid_WithId_ReturnsTrue_WhenEntityIsValid
+2025-06-02T16:46:20.4124445+00:00 mstest-trace INFORMATION Executing test IsValid_WithId_ReturnsFalse_WhenEntityIsInvalid
+2025-06-02T16:46:20.4127318+00:00 mstest-trace INFORMATION Executed test DomainEventIdempotencyKeyGeneratorIsNotNull
+2025-06-02T16:46:20.4128056+00:00 mstest-trace INFORMATION Executing test Constructor_SetsPagingAndOrderById
+2025-06-02T16:46:20.4128741+00:00 mstest-trace INFORMATION Executed test IsValid_ReturnsFalse_WhenEntityIsInvalid
+2025-06-02T16:46:20.4128808+00:00 mstest-trace INFORMATION Executed test IsValid_ReturnsTrue_WhenEntityIsValid
+2025-06-02T16:46:20.4129116+00:00 mstest-trace INFORMATION Executed test FailureT_CreatesFailedResultWithMultipleErrors
+2025-06-02T16:46:20.4129273+00:00 mstest-trace INFORMATION Executed test FailureT_CreatesFailedResultWithError
+2025-06-02T16:46:20.4129313+00:00 mstest-trace INFORMATION Executing test OrderBy_ExpressionOrdersById
+2025-06-02T16:46:20.4129564+00:00 mstest-trace INFORMATION Executing test Constructor_SetsCriteriaToMatchId
+2025-06-02T16:46:20.4129798+00:00 mstest-trace INFORMATION Executing test Constructor_CriteriaHandlesNullId
+2025-06-02T16:46:20.4129824+00:00 mstest-trace INFORMATION Executed test GenerateHash_ThrowsArgumentNullException_ForNullInput
+2025-06-02T16:46:20.4129860+00:00 mstest-trace INFORMATION Executed test IsValid_WithId_ReturnsFalse_WhenEntityIsInvalid
+2025-06-02T16:46:20.4129859+00:00 mstest-trace INFORMATION Executed test IsValid_WithId_ReturnsTrue_WhenEntityIsValid
+2025-06-02T16:46:20.4129922+00:00 mstest-trace INFORMATION Executing test Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty
+2025-06-02T16:46:20.4130488+00:00 mstest-trace INFORMATION Executing test Constructor_SetsOrderBy_WhenSortOrderIsAscending
+2025-06-02T16:46:20.4131043+00:00 mstest-trace INFORMATION Executing test Constructor_SetsOrderByDescending_WhenSortOrderIsDescending
+2025-06-02T16:46:20.4131186+00:00 mstest-trace INFORMATION Executed test Constructor_ThrowsForInvalidState_FailureWithNoErrors
+2025-06-02T16:46:20.4131262+00:00 mstest-trace INFORMATION Executing test Constructor_SetsDefaultOrderBy_WhenSortOrderColumnIsNullOrEmpty
+2025-06-02T16:46:20.4132064+00:00 mstest-trace INFORMATION Executing test Constructor_SetsPagingProperties
+2025-06-02T16:46:20.4245997+00:00 mstest-trace INFORMATION Executed test Constructor_SetsPagingAndOrderById
+2025-06-02T16:46:20.4247317+00:00 mstest-trace INFORMATION Executing test Constructor_SetsCriteria
+2025-06-02T16:46:20.4249655+00:00 mstest-trace INFORMATION Executed test Constructor_SetsDefaultOrderBy_WhenSortOrderColumnIsNullOrEmpty
+2025-06-02T16:46:20.4249928+00:00 mstest-trace INFORMATION Executed test Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty
+2025-06-02T16:46:20.4250313+00:00 mstest-trace INFORMATION Executed test Constructor_SetsOrderByDescending_WhenSortOrderIsDescending
+2025-06-02T16:46:20.4250421+00:00 mstest-trace INFORMATION Executing test AddInclude_AddsInclude
+2025-06-02T16:46:20.4250534+00:00 mstest-trace INFORMATION Executed test Constructor_SetsPagingProperties
+2025-06-02T16:46:20.4250558+00:00 mstest-trace INFORMATION Executing test AddOrderBy_SetsOrderBy
+2025-06-02T16:46:20.4250581+00:00 mstest-trace INFORMATION Executed test Constructor_SetsOrderBy_WhenSortOrderIsAscending
+2025-06-02T16:46:20.4250887+00:00 mstest-trace INFORMATION Executing test AddOrderByDescending_SetsOrderByDescending
+2025-06-02T16:46:20.4251134+00:00 mstest-trace INFORMATION Executing test ApplyPaging_SetsPagingProperties
+2025-06-02T16:46:20.4251147+00:00 mstest-trace INFORMATION Executing test AddThenInclude_AddsThenInclude
+2025-06-02T16:46:20.4254366+00:00 mstest-trace INFORMATION Executed test AddInclude_AddsInclude
+2025-06-02T16:46:20.4254413+00:00 mstest-trace INFORMATION Executed test AddOrderBy_SetsOrderBy
+2025-06-02T16:46:20.4254533+00:00 mstest-trace INFORMATION Executed test ApplyPaging_SetsPagingProperties
+2025-06-02T16:46:20.4254607+00:00 mstest-trace INFORMATION Executed test Constructor_SetsCriteria
+2025-06-02T16:46:20.4254658+00:00 mstest-trace INFORMATION Executed test AddOrderByDescending_SetsOrderByDescending
+2025-06-02T16:46:20.4254974+00:00 mstest-trace INFORMATION Executing test AddCriteria_OverridesCriteria
+2025-06-02T16:46:20.4258890+00:00 mstest-trace INFORMATION Executed test AddCriteria_OverridesCriteria
+2025-06-02T16:46:20.4258900+00:00 mstest-trace INFORMATION Executed test AddThenInclude_AddsThenInclude
+2025-06-02T16:46:20.4327487+00:00 mstest-trace INFORMATION Executed test OrderBy_ExpressionOrdersById
+2025-06-02T16:46:20.4339951+00:00 mstest-trace INFORMATION Executed test Constructor_CriteriaHandlesNullId
+2025-06-02T16:46:20.4339951+00:00 mstest-trace INFORMATION Executed test Constructor_SetsCriteriaToMatchId
+2025-06-02T16:46:20.4410748+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_FromDomainEvent_ProducesConsistentHash
+2025-06-02T16:46:20.4410753+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_FromDomainEvent_ProducesDifferentHashForDifferentEvents
+2025-06-02T16:46:20.4474857+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_FromJson_ProducesSameHashAsFromDomainEvent
+2025-06-02T16:46:20.4477584+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Users\muata\source\repos\muatassim\CleanArchitecture\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll

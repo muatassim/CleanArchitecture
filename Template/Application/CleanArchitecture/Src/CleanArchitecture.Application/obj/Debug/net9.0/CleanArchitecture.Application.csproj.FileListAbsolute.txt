@@ -1,0 +1,17 @@
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.AssemblyInfo.cs
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.csproj.CoreCompileInputs.cache
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.deps.json
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.dll
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.pdb
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Core.dll
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Shared.dll
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Shared.pdb
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Core.pdb
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\CleanArc.03AFA812.Up2Date
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.dll
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\refint\CleanArchitecture.Application.dll
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.pdb
+C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Application\CleanArchitecture\Src\CleanArchitecture.Application\obj\Debug\net9.0\ref\CleanArchitecture.Application.dll

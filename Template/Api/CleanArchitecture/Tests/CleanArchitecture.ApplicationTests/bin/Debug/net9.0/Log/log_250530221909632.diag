@@ -1,0 +1,52 @@
+2025-05-30T22:19:09.6358747+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.1+317f9820cedac7ee34ff1bd7d0b8eaab1f930052
+2025-05-30T22:19:09.6439016+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-05-30T22:19:09.6446280+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-05-30T22:19:09.6446316+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 22:19:09.621
+2025-05-30T22:19:09.6456793+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 13088
+2025-05-30T22:19:09.6456943+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.5
+2025-05-30T22:19:09.6457016+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.5\System.Private.CoreLib.dll
+2025-05-30T22:19:09.6457076+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-05-30T22:19:09.6457370+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApplicationTests\bin\Debug\net9.0\CleanArchitecture.ApplicationTests.dll
+2025-05-30T22:19:09.6457946+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApplicationTests\bin\Debug\net9.0\Log --results-directory C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\TestResults --client-port 63752'
+2025-05-30T22:19:09.6466812+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-05-30T22:19:09.6704987+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-05-30T22:19:09.6793793+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-05-30T22:19:09.7807125+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-05-30T22:19:09.8053154+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-05-30T22:19:09.8096519+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-05-30T22:19:10.0276656+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 16 tests from source C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApplicationTests\bin\Debug\net9.0\CleanArchitecture.ApplicationTests.dll
+2025-05-30T22:19:10.0412865+00:00 mstest-trace INFORMATION Created unit-test runner C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApplicationTests\bin\Debug\net9.0\CleanArchitecture.ApplicationTests.dll
+2025-05-30T22:19:10.0448767+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApplicationTests\bin\Debug\net9.0\CleanArchitecture.ApplicationTests.dll (Workers: 32, Scope: MethodLevel)
+2025-05-30T22:19:10.0504855+00:00 mstest-trace INFORMATION Executing test UpdateCategoriesTestAsync
+2025-05-30T22:19:10.0504855+00:00 mstest-trace INFORMATION Executing test AddCategoriesRequestTestAsync
+2025-05-30T22:19:10.0504855+00:00 mstest-trace INFORMATION Executing test ContainClaimTypeAndValue_TEST
+2025-05-30T22:19:10.0504856+00:00 mstest-trace INFORMATION Executing test Should_Map_Categories_To_CategoriesModel
+2025-05-30T22:19:10.0505186+00:00 mstest-trace INFORMATION Executing test GetClaim_TEST
+2025-05-30T22:19:10.0505206+00:00 mstest-trace INFORMATION Executing test GetClientId_Test
+2025-05-30T22:19:10.0505423+00:00 mstest-trace INFORMATION Executing test GetClaims_TEST
+2025-05-30T22:19:10.0505454+00:00 mstest-trace INFORMATION Executing test Should_Map_CategoriesModel_To_Categories
+2025-05-30T22:19:10.0505810+00:00 mstest-trace INFORMATION Executing test Is_Admin_TEST
+2025-05-30T22:19:10.0505925+00:00 mstest-trace INFORMATION Executing test GetEmail_Test
+2025-05-30T22:19:10.0505971+00:00 mstest-trace INFORMATION Executing test GetBaseUrl_TEST
+2025-05-30T22:19:10.0505997+00:00 mstest-trace INFORMATION Executing test Is_IE_TEST
+2025-05-30T22:19:10.0506154+00:00 mstest-trace INFORMATION Executing test DeleteCategoriesTestAsync
+2025-05-30T22:19:10.0506232+00:00 mstest-trace INFORMATION Executing test GetCategoriesByIdQTestAsync
+2025-05-30T22:19:10.0506217+00:00 mstest-trace INFORMATION Executing test GetClaimValue_TEST
+2025-05-30T22:19:10.0506380+00:00 mstest-trace INFORMATION Executing test GetCategoriesPagedRequestTestAsync
+2025-05-30T22:19:10.4969950+00:00 mstest-trace INFORMATION Executed test Should_Map_CategoriesModel_To_Categories
+2025-05-30T22:19:10.4970277+00:00 mstest-trace INFORMATION Executed test Should_Map_Categories_To_CategoriesModel
+2025-05-30T22:19:10.7647909+00:00 mstest-trace INFORMATION Executed test GetCategoriesByIdQTestAsync
+2025-05-30T22:19:10.7661404+00:00 mstest-trace INFORMATION Executed test AddCategoriesRequestTestAsync
+2025-05-30T22:19:10.7661537+00:00 mstest-trace INFORMATION Executed test DeleteCategoriesTestAsync
+2025-05-30T22:19:10.7662044+00:00 mstest-trace INFORMATION Executed test UpdateCategoriesTestAsync
+2025-05-30T22:19:10.7685409+00:00 mstest-trace INFORMATION Executed test GetCategoriesPagedRequestTestAsync
+2025-05-30T22:19:10.7962619+00:00 mstest-trace INFORMATION Executed test Is_Admin_TEST
+2025-05-30T22:19:10.7962883+00:00 mstest-trace INFORMATION Executed test GetClaim_TEST
+2025-05-30T22:19:10.7963012+00:00 mstest-trace INFORMATION Executed test GetClientId_Test
+2025-05-30T22:19:10.7963917+00:00 mstest-trace INFORMATION Executed test GetClaimValue_TEST
+2025-05-30T22:19:10.7964466+00:00 mstest-trace INFORMATION Executed test ContainClaimTypeAndValue_TEST
+2025-05-30T22:19:10.7964661+00:00 mstest-trace INFORMATION Executed test GetClaims_TEST
+2025-05-30T22:19:10.7964871+00:00 mstest-trace INFORMATION Executed test Is_IE_TEST
+2025-05-30T22:19:10.7967095+00:00 mstest-trace INFORMATION Executed test GetEmail_Test
+2025-05-30T22:19:10.7992259+00:00 mstest-trace INFORMATION Executed test GetBaseUrl_TEST
+2025-05-30T22:19:10.7996173+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.ApplicationTests\bin\Debug\net9.0\CleanArchitecture.ApplicationTests.dll

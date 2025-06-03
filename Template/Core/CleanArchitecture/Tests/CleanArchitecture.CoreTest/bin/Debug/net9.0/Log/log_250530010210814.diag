@@ -1,0 +1,152 @@
+2025-05-30T01:02:10.8176733+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.1+317f9820cedac7ee34ff1bd7d0b8eaab1f930052
+2025-05-30T01:02:10.8245190+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-05-30T01:02:10.8251444+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-05-30T01:02:10.8251469+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 01:02:10.804
+2025-05-30T01:02:10.8260316+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 55756
+2025-05-30T01:02:10.8260431+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.5
+2025-05-30T01:02:10.8260481+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.5\System.Private.CoreLib.dll
+2025-05-30T01:02:10.8260529+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-05-30T01:02:10.8260848+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T01:02:10.8261383+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\Log --results-directory C:\Output\CleanArchitecture\TestResults --client-port 51291'
+2025-05-30T01:02:10.8269225+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-05-30T01:02:10.8358056+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-05-30T01:02:10.8431755+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-05-30T01:02:10.9295245+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-05-30T01:02:10.9481079+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-05-30T01:02:10.9504338+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-05-30T01:02:10.9779836+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 60 tests from source C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T01:02:10.9924007+00:00 mstest-trace INFORMATION Created unit-test runner C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T01:02:10.9956575+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll (Workers: 32, Scope: MethodLevel)
+2025-05-30T01:02:11.0020501+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_FromDomainEvent_ProducesDifferentHashForDifferentEvents
+2025-05-30T01:02:11.0020515+00:00 mstest-trace INFORMATION Executing test GenerateHash_ReturnsConsistentHash_ForSameInput
+2025-05-30T01:02:11.0020515+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenValueDoesNotMatchRegex
+2025-05-30T01:02:11.0021124+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenLengthWithinRange
+2025-05-30T01:02:11.0021188+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenValueIsNotNullOrEmpty
+2025-05-30T01:02:11.0021319+00:00 mstest-trace INFORMATION Executing test ValidateRule_WebAddressValidator
+2025-05-30T01:02:11.0021337+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenLengthBelowMin
+2025-05-30T01:02:11.0021364+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenValueIsEmpty
+2025-05-30T01:02:11.0021430+00:00 mstest-trace INFORMATION Executing test GenerateHash_ReturnsHash_ForEmptyString
+2025-05-30T01:02:11.0021457+00:00 mstest-trace INFORMATION Executing test GetErrors_ReturnsEmptyList_WhenInputIsNull
+2025-05-30T01:02:11.0021552+00:00 mstest-trace INFORMATION Executing test GenerateHash_ReturnsDifferentHash_ForDifferentInput
+2025-05-30T01:02:11.0021577+00:00 mstest-trace INFORMATION Executing test GetErrors_ConvertsValidationErrorsToErrors
+2025-05-30T01:02:11.0021655+00:00 mstest-trace INFORMATION Executing test CustomRule_SetsPropertyName_And_Description
+2025-05-30T01:02:11.0021797+00:00 mstest-trace INFORMATION Executing test ValidateRule_PhoneValidator
+2025-05-30T01:02:11.0021808+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenDelegateReturnsFalse
+2025-05-30T01:02:11.0021820+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenLengthAboveMax
+2025-05-30T01:02:11.0021873+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenLengthIsAboveMax
+2025-05-30T01:02:11.0021926+00:00 mstest-trace INFORMATION Executing test GetErrors_ReturnsEmptyList_WhenInputIsEmpty
+2025-05-30T01:02:11.0021940+00:00 mstest-trace INFORMATION Executing test ValidateRule_EmailValidator
+2025-05-30T01:02:11.0022007+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsFalse_WhenValueIsNull
+2025-05-30T01:02:11.0022041+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenRecordIsUnique
+2025-05-30T01:02:11.0022095+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenDelegateReturnsTrue
+2025-05-30T01:02:11.0022115+00:00 mstest-trace INFORMATION Executing test GenerateHash_ReturnsHash_ForUnicodeString
+2025-05-30T01:02:11.0022187+00:00 mstest-trace INFORMATION Executing test GenerateHash_ThrowsArgumentNullException_ForNullInput
+2025-05-30T01:02:11.0022216+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenLengthIsBelowOrEqualToMax
+2025-05-30T01:02:11.0022271+00:00 mstest-trace INFORMATION Executing test ValidateRule_ReturnsTrue_WhenValueMatchesRegex
+2025-05-30T01:02:11.0022309+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_FromDomainEvent_ProducesConsistentHash
+2025-05-30T01:02:11.0022622+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_FromJson_ProducesSameHashAsFromDomainEvent
+2025-05-30T01:02:11.0029614+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_ProducesConsistentHash_ForEquivalentEntities
+2025-05-30T01:02:11.0030638+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_ProducesDifferentHash_ForDifferentEntities
+2025-05-30T01:02:11.0032695+00:00 mstest-trace INFORMATION Executing test Success_CreatesSuccessfulResult
+2025-05-30T01:02:11.0057278+00:00 mstest-trace INFORMATION Executing test Failure_CreatesFailedResult_WithSingleError
+2025-05-30T01:02:11.3689781+00:00 mstest-trace INFORMATION Executed test GetErrors_ReturnsEmptyList_WhenInputIsNull
+2025-05-30T01:02:11.3708606+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenRecordIsUnique
+2025-05-30T01:02:11.3709349+00:00 mstest-trace INFORMATION Executed test Failure_CreatesFailedResult_WithSingleError
+2025-05-30T01:02:11.3710571+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenValueIsNull
+2025-05-30T01:02:11.3711040+00:00 mstest-trace INFORMATION Executed test GetErrors_ReturnsEmptyList_WhenInputIsEmpty
+2025-05-30T01:02:11.3711335+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenValueIsEmpty
+2025-05-30T01:02:11.3712551+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenLengthWithinRange
+2025-05-30T01:02:11.3718251+00:00 mstest-trace INFORMATION Executed test GenerateHash_ReturnsDifferentHash_ForDifferentInput
+2025-05-30T01:02:11.3718284+00:00 mstest-trace INFORMATION Executed test GenerateHash_ReturnsHash_ForEmptyString
+2025-05-30T01:02:11.3718519+00:00 mstest-trace INFORMATION Executed test ValidateRule_EmailValidator
+2025-05-30T01:02:11.3719256+00:00 mstest-trace INFORMATION Executed test ValidateRule_PhoneValidator
+2025-05-30T01:02:11.3719400+00:00 mstest-trace INFORMATION Executing test SuccessT_CreatesSuccessfulResultWithValue
+2025-05-30T01:02:11.3719429+00:00 mstest-trace INFORMATION Executing test FailureT_CreatesFailedResultWithError
+2025-05-30T01:02:11.3719533+00:00 mstest-trace INFORMATION Executing test Failure_CreatesFailedResult_WithMultipleErrors
+2025-05-30T01:02:11.3719569+00:00 mstest-trace INFORMATION Executing test Create_ReturnsSuccess_WhenValueIsNotNull
+2025-05-30T01:02:11.3719600+00:00 mstest-trace INFORMATION Executing test Create_ReturnsFailure_WhenValueIsNull
+2025-05-30T01:02:11.3719644+00:00 mstest-trace INFORMATION Executing test FailureT_CreatesFailedResultWithMultipleErrors
+2025-05-30T01:02:11.3719714+00:00 mstest-trace INFORMATION Executing test ImplicitConversion_WorksForSuccess
+2025-05-30T01:02:11.3720161+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenValueDoesNotMatchRegex
+2025-05-30T01:02:11.3720548+00:00 mstest-trace INFORMATION Executed test Success_CreatesSuccessfulResult
+2025-05-30T01:02:11.3720617+00:00 mstest-trace INFORMATION Executing test IsValid_ReturnsFalse_WhenEntityIsInvalid
+2025-05-30T01:02:11.3720645+00:00 mstest-trace INFORMATION Executing test Constructor_ThrowsForInvalidState_FailureWithNoErrors
+2025-05-30T01:02:11.3720887+00:00 mstest-trace INFORMATION Executing test IsValid_ReturnsTrue_WhenEntityIsValid
+2025-05-30T01:02:11.3721046+00:00 mstest-trace INFORMATION Executing test IsValid_WithId_ReturnsTrue_WhenEntityIsValid
+2025-05-30T01:02:11.3722117+00:00 mstest-trace INFORMATION Executed test SuccessT_CreatesSuccessfulResultWithValue
+2025-05-30T01:02:11.3722604+00:00 mstest-trace INFORMATION Executing test IsValid_WithId_ReturnsFalse_WhenEntityIsInvalid
+2025-05-30T01:02:11.3723205+00:00 mstest-trace INFORMATION Executed test Create_ReturnsFailure_WhenValueIsNull
+2025-05-30T01:02:11.3723253+00:00 mstest-trace INFORMATION Executed test Failure_CreatesFailedResult_WithMultipleErrors
+2025-05-30T01:02:11.3723694+00:00 mstest-trace INFORMATION Executing test Constructor_SetsPagingAndOrderById
+2025-05-30T01:02:11.3723732+00:00 mstest-trace INFORMATION Executing test OrderBy_ExpressionOrdersById
+2025-05-30T01:02:11.3724557+00:00 mstest-trace INFORMATION Executed test ImplicitConversion_WorksForSuccess
+2025-05-30T01:02:11.3724698+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenValueMatchesRegex
+2025-05-30T01:02:11.3725185+00:00 mstest-trace INFORMATION Executing test Constructor_SetsCriteriaToMatchId
+2025-05-30T01:02:11.3725209+00:00 mstest-trace INFORMATION Executing test Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty
+2025-05-30T01:02:11.3725263+00:00 mstest-trace INFORMATION Executed test Create_ReturnsSuccess_WhenValueIsNotNull
+2025-05-30T01:02:11.3725348+00:00 mstest-trace INFORMATION Executing test Constructor_CriteriaHandlesNullId
+2025-05-30T01:02:11.3726115+00:00 mstest-trace INFORMATION Executed test GenerateHash_ReturnsHash_ForUnicodeString
+2025-05-30T01:02:11.3726151+00:00 mstest-trace INFORMATION Executing test Constructor_SetsOrderBy_WhenSortOrderIsAscending
+2025-05-30T01:02:11.3726390+00:00 mstest-trace INFORMATION Executed test IsValid_ReturnsFalse_WhenEntityIsInvalid
+2025-05-30T01:02:11.3726570+00:00 mstest-trace INFORMATION Executing test Constructor_SetsOrderByDescending_WhenSortOrderIsDescending
+2025-05-30T01:02:11.3726863+00:00 mstest-trace INFORMATION Executing test Constructor_SetsDefaultOrderBy_WhenSortOrderColumnIsNullOrEmpty
+2025-05-30T01:02:11.3727555+00:00 mstest-trace INFORMATION Executed test IsValid_ReturnsTrue_WhenEntityIsValid
+2025-05-30T01:02:11.3727961+00:00 mstest-trace INFORMATION Executing test Constructor_SetsPagingProperties
+2025-05-30T01:02:11.3728065+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenValueIsNotNullOrEmpty
+2025-05-30T01:02:11.3728362+00:00 mstest-trace INFORMATION Executing test AddInclude_AddsInclude
+2025-05-30T01:02:11.3728361+00:00 mstest-trace INFORMATION Executing test Constructor_SetsCriteria
+2025-05-30T01:02:11.3728557+00:00 mstest-trace INFORMATION Executed test IsValid_WithId_ReturnsFalse_WhenEntityIsInvalid
+2025-05-30T01:02:11.3728827+00:00 mstest-trace INFORMATION Executed test ValidateRule_WebAddressValidator
+2025-05-30T01:02:11.3728907+00:00 mstest-trace INFORMATION Executed test GenerateHash_ReturnsConsistentHash_ForSameInput
+2025-05-30T01:02:11.3729028+00:00 mstest-trace INFORMATION Executing test AddOrderBy_SetsOrderBy
+2025-05-30T01:02:11.3729285+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenLengthIsAboveMax
+2025-05-30T01:02:11.3729314+00:00 mstest-trace INFORMATION Executing test AddOrderByDescending_SetsOrderByDescending
+2025-05-30T01:02:11.3729538+00:00 mstest-trace INFORMATION Executing test ApplyPaging_SetsPagingProperties
+2025-05-30T01:02:11.3729766+00:00 mstest-trace INFORMATION Executing test AddThenInclude_AddsThenInclude
+2025-05-30T01:02:11.3730112+00:00 mstest-trace INFORMATION Executed test IsValid_WithId_ReturnsTrue_WhenEntityIsValid
+2025-05-30T01:02:11.3730284+00:00 mstest-trace INFORMATION Executed test FailureT_CreatesFailedResultWithError
+2025-05-30T01:02:11.3730435+00:00 mstest-trace INFORMATION Executing test AddCriteria_OverridesCriteria
+2025-05-30T01:02:11.3730479+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenDelegateReturnsFalse
+2025-05-30T01:02:11.3730801+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenDelegateReturnsTrue
+2025-05-30T01:02:11.3730878+00:00 mstest-trace INFORMATION Executed test GetErrors_ConvertsValidationErrorsToErrors
+2025-05-30T01:02:11.3731563+00:00 mstest-trace INFORMATION Executed test CustomRule_SetsPropertyName_And_Description
+2025-05-30T01:02:11.3731830+00:00 mstest-trace INFORMATION Executed test FailureT_CreatesFailedResultWithMultipleErrors
+2025-05-30T01:02:11.3732181+00:00 mstest-trace INFORMATION Executed test Constructor_ThrowsForInvalidState_FailureWithNoErrors
+2025-05-30T01:02:11.3732539+00:00 mstest-trace INFORMATION Executed test GenerateHash_ThrowsArgumentNullException_ForNullInput
+2025-05-30T01:02:11.3754878+00:00 mstest-trace INFORMATION Executed test AddInclude_AddsInclude
+2025-05-30T01:02:11.3754942+00:00 mstest-trace INFORMATION Executed test Constructor_SetsPagingAndOrderById
+2025-05-30T01:02:11.3757240+00:00 mstest-trace INFORMATION Executed test ApplyPaging_SetsPagingProperties
+2025-05-30T01:02:11.3757580+00:00 mstest-trace INFORMATION Executed test Constructor_SetsCriteria
+2025-05-30T01:02:11.3758124+00:00 mstest-trace INFORMATION Executed test AddOrderBy_SetsOrderBy
+2025-05-30T01:02:11.3758301+00:00 mstest-trace INFORMATION Executed test Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty
+2025-05-30T01:02:11.3758701+00:00 mstest-trace INFORMATION Executed test Constructor_SetsDefaultOrderBy_WhenSortOrderColumnIsNullOrEmpty
+2025-05-30T01:02:11.3759971+00:00 mstest-trace INFORMATION Executed test Constructor_SetsPagingProperties
+2025-05-30T01:02:11.3760353+00:00 mstest-trace INFORMATION Executed test AddOrderByDescending_SetsOrderByDescending
+2025-05-30T01:02:11.3760519+00:00 mstest-trace INFORMATION Executed test Constructor_SetsOrderBy_WhenSortOrderIsAscending
+2025-05-30T01:02:11.3760808+00:00 mstest-trace INFORMATION Executed test AddThenInclude_AddsThenInclude
+2025-05-30T01:02:11.3760968+00:00 mstest-trace INFORMATION Executed test Constructor_SetsOrderByDescending_WhenSortOrderIsDescending
+2025-05-30T01:02:11.3762863+00:00 mstest-trace INFORMATION Executed test AddCriteria_OverridesCriteria
+2025-05-30T01:02:11.3806395+00:00 mstest-trace INFORMATION Executed test Constructor_SetsCriteriaToMatchId
+2025-05-30T01:02:11.3810304+00:00 mstest-trace INFORMATION Executed test Constructor_CriteriaHandlesNullId
+2025-05-30T01:02:11.3812554+00:00 mstest-trace INFORMATION Executed test OrderBy_ExpressionOrdersById
+2025-05-30T01:02:11.3812879+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_ProducesConsistentHash_ForEquivalentEntities
+2025-05-30T01:02:11.3813030+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_ProducesDifferentHash_ForDifferentEntities
+2025-05-30T01:02:11.3817472+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_FromDomainEvent_ProducesConsistentHash
+2025-05-30T01:02:11.3817899+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_FromDomainEvent_ProducesDifferentHashForDifferentEvents
+2025-05-30T01:02:11.3818252+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_FromJson_ProducesSameHashAsFromDomainEvent
+2025-05-30T01:02:11.3910195+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenLengthBelowMin
+2025-05-30T01:02:11.3910212+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsFalse_WhenLengthAboveMax
+2025-05-30T01:02:11.3910565+00:00 mstest-trace INFORMATION MSTestExecutor:Test CleanArchitecture.CoreTest.Tests.Validations.Rules.FieldLengthBetweenRuleTests.ValidateRule_ReturnsFalse_WhenLengthBelowMin failed. ErrorMessage:Assert.IsFalse failed. , ErrorStackTrace:   at CleanArchitecture.CoreTest.Tests.Validations.Rules.FieldLengthBetweenRuleTests.ValidateRule_ReturnsFalse_WhenLengthBelowMin() in C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\Tests\Validations\Rules\FieldLengthBetweenRuleTests.cs:line 24
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-05-30T01:02:11.3910584+00:00 mstest-trace INFORMATION MSTestExecutor:Test CleanArchitecture.CoreTest.Tests.Validations.Rules.FieldLengthBetweenRuleTests.ValidateRule_ReturnsFalse_WhenLengthAboveMax failed. ErrorMessage:Assert.IsFalse failed. , ErrorStackTrace:   at CleanArchitecture.CoreTest.Tests.Validations.Rules.FieldLengthBetweenRuleTests.ValidateRule_ReturnsFalse_WhenLengthAboveMax() in C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\Tests\Validations\Rules\FieldLengthBetweenRuleTests.cs:line 32
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-05-30T01:02:11.3933575+00:00 mstest-trace INFORMATION Executed test ValidateRule_ReturnsTrue_WhenLengthIsBelowOrEqualToMax
+2025-05-30T01:02:11.3933821+00:00 mstest-trace INFORMATION MSTestExecutor:Test CleanArchitecture.CoreTest.Tests.Validations.Rules.MaximumFieldLengthRuleTests.ValidateRule_ReturnsTrue_WhenLengthIsBelowOrEqualToMax failed. ErrorMessage:Assert.IsTrue failed. , ErrorStackTrace:   at CleanArchitecture.CoreTest.Tests.Validations.Rules.MaximumFieldLengthRuleTests.ValidateRule_ReturnsTrue_WhenLengthIsBelowOrEqualToMax() in C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\Tests\Validations\Rules\MaximumFieldLengthRuleTests.cs:line 14
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-05-30T01:02:11.3935390+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll

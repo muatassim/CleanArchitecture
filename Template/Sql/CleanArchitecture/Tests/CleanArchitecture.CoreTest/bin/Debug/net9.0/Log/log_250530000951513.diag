@@ -1,0 +1,44 @@
+2025-05-30T00:09:51.5166376+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.1+317f9820cedac7ee34ff1bd7d0b8eaab1f930052
+2025-05-30T00:09:51.5238253+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-05-30T00:09:51.5244820+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-05-30T00:09:51.5244850+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 00:09:51.503
+2025-05-30T00:09:51.5255565+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 49180
+2025-05-30T00:09:51.5255687+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.5
+2025-05-30T00:09:51.5255744+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.5\System.Private.CoreLib.dll
+2025-05-30T00:09:51.5255797+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-05-30T00:09:51.5256079+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T00:09:51.5256798+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\Log --results-directory C:\Output\CleanArchitecture\TestResults --client-port 50436'
+2025-05-30T00:09:51.5264340+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-05-30T00:09:51.5351305+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-05-30T00:09:51.5430540+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-05-30T00:09:51.6294353+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-05-30T00:09:51.6478583+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-05-30T00:09:51.6499494+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-05-30T00:09:51.6713193+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 12 tests from source C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T00:09:51.6864014+00:00 mstest-trace INFORMATION Created unit-test runner C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T00:09:51.6899175+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll (Workers: 32, Scope: MethodLevel)
+2025-05-30T00:09:51.6953906+00:00 mstest-trace INFORMATION Executing test Constructor_SetsPagingProperties
+2025-05-30T00:09:51.6953915+00:00 mstest-trace INFORMATION Executing test Constructor_SetsOrderBy_WhenSortOrderIsAscending
+2025-05-30T00:09:51.6953910+00:00 mstest-trace INFORMATION Executing test AddOrderByDescending_SetsOrderByDescending
+2025-05-30T00:09:51.6953939+00:00 mstest-trace INFORMATION Executing test AddThenInclude_AddsThenInclude
+2025-05-30T00:09:51.6954074+00:00 mstest-trace INFORMATION Executing test Constructor_SetsOrderByDescending_WhenSortOrderIsDescending
+2025-05-30T00:09:51.6953910+00:00 mstest-trace INFORMATION Executing test Constructor_SetsDefaultOrderBy_WhenSortOrderColumnIsNullOrEmpty
+2025-05-30T00:09:51.6954043+00:00 mstest-trace INFORMATION Executing test AddCriteria_OverridesCriteria
+2025-05-30T00:09:51.6954108+00:00 mstest-trace INFORMATION Executing test AddOrderBy_SetsOrderBy
+2025-05-30T00:09:51.6954132+00:00 mstest-trace INFORMATION Executing test Constructor_SetsCriteria
+2025-05-30T00:09:51.6954238+00:00 mstest-trace INFORMATION Executing test Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty
+2025-05-30T00:09:51.6954291+00:00 mstest-trace INFORMATION Executing test ApplyPaging_SetsPagingProperties
+2025-05-30T00:09:51.6954295+00:00 mstest-trace INFORMATION Executing test AddInclude_AddsInclude
+2025-05-30T00:09:51.7674710+00:00 mstest-trace INFORMATION Executed test Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty
+2025-05-30T00:09:51.7676118+00:00 mstest-trace INFORMATION Executed test AddCriteria_OverridesCriteria
+2025-05-30T00:09:51.7677041+00:00 mstest-trace INFORMATION Executed test AddInclude_AddsInclude
+2025-05-30T00:09:51.7677251+00:00 mstest-trace INFORMATION Executed test ApplyPaging_SetsPagingProperties
+2025-05-30T00:09:51.7677707+00:00 mstest-trace INFORMATION Executed test Constructor_SetsOrderByDescending_WhenSortOrderIsDescending
+2025-05-30T00:09:51.7677787+00:00 mstest-trace INFORMATION Executed test Constructor_SetsPagingProperties
+2025-05-30T00:09:51.7678037+00:00 mstest-trace INFORMATION Executed test Constructor_SetsCriteria
+2025-05-30T00:09:51.7678329+00:00 mstest-trace INFORMATION Executed test Constructor_SetsOrderBy_WhenSortOrderIsAscending
+2025-05-30T00:09:51.7679173+00:00 mstest-trace INFORMATION Executed test AddOrderBy_SetsOrderBy
+2025-05-30T00:09:51.7680045+00:00 mstest-trace INFORMATION Executed test AddOrderByDescending_SetsOrderByDescending
+2025-05-30T00:09:51.7680911+00:00 mstest-trace INFORMATION Executed test AddThenInclude_AddsThenInclude
+2025-05-30T00:09:51.7680994+00:00 mstest-trace INFORMATION Executed test Constructor_SetsDefaultOrderBy_WhenSortOrderColumnIsNullOrEmpty
+2025-05-30T00:09:51.7712836+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll

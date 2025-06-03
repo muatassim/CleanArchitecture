@@ -1,0 +1,122 @@
+2025-05-30T00:45:43.9605291+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.1+317f9820cedac7ee34ff1bd7d0b8eaab1f930052
+2025-05-30T00:45:43.9676175+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-05-30T00:45:43.9682655+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-05-30T00:45:43.9682680+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 00:45:43.946
+2025-05-30T00:45:43.9691193+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 12556
+2025-05-30T00:45:43.9691320+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.5
+2025-05-30T00:45:43.9691379+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.5\System.Private.CoreLib.dll
+2025-05-30T00:45:43.9691429+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-05-30T00:45:43.9691722+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T00:45:43.9692229+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\Log --results-directory C:\Output\CleanArchitecture\TestResults --client-port 50970'
+2025-05-30T00:45:43.9700265+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-05-30T00:45:43.9791692+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-05-30T00:45:43.9865191+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-05-30T00:45:44.0730748+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-05-30T00:45:44.0925494+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-05-30T00:45:44.0947809+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-05-30T00:45:44.1158249+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 35 tests from source C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T00:45:44.1286029+00:00 mstest-trace INFORMATION Created unit-test runner C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll
+2025-05-30T00:45:44.1317145+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll (Workers: 32, Scope: MethodLevel)
+2025-05-30T00:45:44.1375767+00:00 mstest-trace INFORMATION Executing test IsValid_WithId_ReturnsFalse_WhenEntityIsInvalid
+2025-05-30T00:45:44.1375779+00:00 mstest-trace INFORMATION Executing test Failure_CreatesFailedResult_WithSingleError
+2025-05-30T00:45:44.1375799+00:00 mstest-trace INFORMATION Executing test SuccessT_CreatesSuccessfulResultWithValue
+2025-05-30T00:45:44.1375800+00:00 mstest-trace INFORMATION Executing test Failure_CreatesFailedResult_WithMultipleErrors
+2025-05-30T00:45:44.1375804+00:00 mstest-trace INFORMATION Executing test FailureT_CreatesFailedResultWithError
+2025-05-30T00:45:44.1375939+00:00 mstest-trace INFORMATION Executing test Success_CreatesSuccessfulResult
+2025-05-30T00:45:44.1375988+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_FromJson_ProducesSameHashAsFromDomainEvent
+2025-05-30T00:45:44.1376066+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_FromDomainEvent_ProducesConsistentHash
+2025-05-30T00:45:44.1376150+00:00 mstest-trace INFORMATION Executing test Create_ReturnsFailure_WhenValueIsNull
+2025-05-30T00:45:44.1376203+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_ProducesConsistentHash_ForEquivalentEntities
+2025-05-30T00:45:44.1376202+00:00 mstest-trace INFORMATION Executing test ImplicitConversion_WorksForSuccess
+2025-05-30T00:45:44.1376231+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_FromDomainEvent_ProducesDifferentHashForDifferentEvents
+2025-05-30T00:45:44.1376286+00:00 mstest-trace INFORMATION Executing test Create_ReturnsSuccess_WhenValueIsNotNull
+2025-05-30T00:45:44.1376361+00:00 mstest-trace INFORMATION Executing test GenerateIdempotencyKey_ProducesDifferentHash_ForDifferentEntities
+2025-05-30T00:45:44.1376428+00:00 mstest-trace INFORMATION Executing test FailureT_CreatesFailedResultWithMultipleErrors
+2025-05-30T00:45:44.1376563+00:00 mstest-trace INFORMATION Executing test OrderBy_ExpressionOrdersById
+2025-05-30T00:45:44.1376574+00:00 mstest-trace INFORMATION Executing test IsValid_ReturnsFalse_WhenEntityIsInvalid
+2025-05-30T00:45:44.1376572+00:00 mstest-trace INFORMATION Executing test Constructor_ThrowsForInvalidState_FailureWithNoErrors
+2025-05-30T00:45:44.1376604+00:00 mstest-trace INFORMATION Executing test IsValid_WithId_ReturnsTrue_WhenEntityIsValid
+2025-05-30T00:45:44.1376723+00:00 mstest-trace INFORMATION Executing test Constructor_SetsPagingAndOrderById
+2025-05-30T00:45:44.1376774+00:00 mstest-trace INFORMATION Executing test IsValid_ReturnsTrue_WhenEntityIsValid
+2025-05-30T00:45:44.1376812+00:00 mstest-trace INFORMATION Executing test Constructor_CriteriaHandlesNullId
+2025-05-30T00:45:44.1376880+00:00 mstest-trace INFORMATION Executing test Constructor_SetsCriteriaToMatchId
+2025-05-30T00:45:44.1377734+00:00 mstest-trace INFORMATION Executing test Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty
+2025-05-30T00:45:44.1386439+00:00 mstest-trace INFORMATION Executing test Constructor_SetsOrderBy_WhenSortOrderIsAscending
+2025-05-30T00:45:44.1387685+00:00 mstest-trace INFORMATION Executing test Constructor_SetsOrderByDescending_WhenSortOrderIsDescending
+2025-05-30T00:45:44.1387812+00:00 mstest-trace INFORMATION Executing test Constructor_SetsDefaultOrderBy_WhenSortOrderColumnIsNullOrEmpty
+2025-05-30T00:45:44.1389504+00:00 mstest-trace INFORMATION Executing test Constructor_SetsCriteria
+2025-05-30T00:45:44.1389609+00:00 mstest-trace INFORMATION Executing test AddInclude_AddsInclude
+2025-05-30T00:45:44.1397230+00:00 mstest-trace INFORMATION Executing test AddOrderBy_SetsOrderBy
+2025-05-30T00:45:44.1401326+00:00 mstest-trace INFORMATION Executing test Constructor_SetsPagingProperties
+2025-05-30T00:45:44.1448284+00:00 mstest-trace INFORMATION Executing test AddOrderByDescending_SetsOrderByDescending
+2025-05-30T00:45:44.6082395+00:00 mstest-trace INFORMATION Executed test Create_ReturnsSuccess_WhenValueIsNotNull
+2025-05-30T00:45:44.6082397+00:00 mstest-trace INFORMATION Executed test SuccessT_CreatesSuccessfulResultWithValue
+2025-05-30T00:45:44.6082444+00:00 mstest-trace INFORMATION Executed test Success_CreatesSuccessfulResult
+2025-05-30T00:45:44.6082449+00:00 mstest-trace INFORMATION Executed test Constructor_ThrowsForInvalidState_FailureWithNoErrors
+2025-05-30T00:45:44.6082574+00:00 mstest-trace INFORMATION Executed test IsValid_WithId_ReturnsFalse_WhenEntityIsInvalid
+2025-05-30T00:45:44.6082651+00:00 mstest-trace INFORMATION Executed test FailureT_CreatesFailedResultWithError
+2025-05-30T00:45:44.6082661+00:00 mstest-trace INFORMATION Executed test Create_ReturnsFailure_WhenValueIsNull
+2025-05-30T00:45:44.6083652+00:00 mstest-trace INFORMATION Executed test Failure_CreatesFailedResult_WithSingleError
+2025-05-30T00:45:44.6083659+00:00 mstest-trace INFORMATION Executed test IsValid_ReturnsFalse_WhenEntityIsInvalid
+2025-05-30T00:45:44.6083731+00:00 mstest-trace INFORMATION Executed test Failure_CreatesFailedResult_WithMultipleErrors
+2025-05-30T00:45:44.6083757+00:00 mstest-trace INFORMATION Executed test IsValid_ReturnsTrue_WhenEntityIsValid
+2025-05-30T00:45:44.6083818+00:00 mstest-trace INFORMATION Executed test FailureT_CreatesFailedResultWithMultipleErrors
+2025-05-30T00:45:44.6084039+00:00 mstest-trace INFORMATION Executed test ImplicitConversion_WorksForSuccess
+2025-05-30T00:45:44.6084040+00:00 mstest-trace INFORMATION Executed test IsValid_WithId_ReturnsTrue_WhenEntityIsValid
+2025-05-30T00:45:44.6092349+00:00 mstest-trace INFORMATION Executed test Constructor_SetsPagingAndOrderById
+2025-05-30T00:45:44.6093011+00:00 mstest-trace INFORMATION Executed test Constructor_SetsDefaultOrderBy_WhenSortOrderColumnIsNullOrEmpty
+2025-05-30T00:45:44.6094124+00:00 mstest-trace INFORMATION Executed test Constructor_SetsCriteria
+2025-05-30T00:45:44.6094177+00:00 mstest-trace INFORMATION Executed test AddInclude_AddsInclude
+2025-05-30T00:45:44.6094293+00:00 mstest-trace INFORMATION Executed test AddOrderBy_SetsOrderBy
+2025-05-30T00:45:44.6094359+00:00 mstest-trace INFORMATION Executed test AddOrderByDescending_SetsOrderByDescending
+2025-05-30T00:45:44.6115325+00:00 mstest-trace INFORMATION Executing test AddThenInclude_AddsThenInclude
+2025-05-30T00:45:44.6115326+00:00 mstest-trace INFORMATION Executing test ApplyPaging_SetsPagingProperties
+2025-05-30T00:45:44.6115400+00:00 mstest-trace INFORMATION Executing test AddCriteria_OverridesCriteria
+2025-05-30T00:45:44.6116730+00:00 mstest-trace INFORMATION Executed test ApplyPaging_SetsPagingProperties
+2025-05-30T00:45:44.6119819+00:00 mstest-trace INFORMATION Executed test AddCriteria_OverridesCriteria
+2025-05-30T00:45:44.6120459+00:00 mstest-trace INFORMATION Executed test AddThenInclude_AddsThenInclude
+2025-05-30T00:45:44.6153205+00:00 mstest-trace INFORMATION Executed test OrderBy_ExpressionOrdersById
+2025-05-30T00:45:44.6158698+00:00 mstest-trace INFORMATION Executed test Constructor_SetsCriteriaToMatchId
+2025-05-30T00:45:44.6158791+00:00 mstest-trace INFORMATION Executed test Constructor_CriteriaHandlesNullId
+2025-05-30T00:45:44.6196320+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_ProducesConsistentHash_ForEquivalentEntities
+2025-05-30T00:45:44.6197385+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_ProducesDifferentHash_ForDifferentEntities
+2025-05-30T00:45:44.6198583+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_FromDomainEvent_ProducesDifferentHashForDifferentEvents
+2025-05-30T00:45:44.6198593+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_FromDomainEvent_ProducesConsistentHash
+2025-05-30T00:45:44.6198866+00:00 mstest-trace INFORMATION Executed test GenerateIdempotencyKey_FromJson_ProducesSameHashAsFromDomainEvent
+2025-05-30T00:45:44.6334684+00:00 mstest-trace INFORMATION Executed test Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty
+2025-05-30T00:45:44.6334684+00:00 mstest-trace INFORMATION Executed test Constructor_SetsOrderByDescending_WhenSortOrderIsDescending
+2025-05-30T00:45:44.6334684+00:00 mstest-trace INFORMATION Executed test Constructor_SetsOrderBy_WhenSortOrderIsAscending
+2025-05-30T00:45:44.6335096+00:00 mstest-trace INFORMATION MSTestExecutor:Test CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsOrderBy_WhenSortOrderIsAscending failed. ErrorMessage:Test method CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsOrderBy_WhenSortOrderIsAscending threw exception: 
+System.ArgumentException: Instance property 'Name' is not defined for type 'CleanArchitecture.CoreTest.Data.GenericTestEntity' (Parameter 'propertyName'), ErrorStackTrace:   at System.Linq.Expressions.Expression.Property(Expression expression, String propertyName)
+   at CleanArchitecture.Core.Abstractions.Specifications.GenericSearchSpecification`1.GetOrderByExpression(String columnName) in C:\Output\CleanArchitecture\Src\CleanArchitecture.Core\Abstractions\Specifications\GenericSearchSpecification.cs:line 133
+   at CleanArchitecture.Core.Abstractions.Specifications.GenericSearchSpecification`1..ctor(SearchRequest searchRequest) in C:\Output\CleanArchitecture\Src\CleanArchitecture.Core\Abstractions\Specifications\GenericSearchSpecification.cs:line 104
+   at CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsOrderBy_WhenSortOrderIsAscending() in C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\Tests\Abstractions\Specifications\GenericSearchSpecificationTests.cs:line 39
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-05-30T00:45:44.6335121+00:00 mstest-trace INFORMATION MSTestExecutor:Test CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsOrderByDescending_WhenSortOrderIsDescending failed. ErrorMessage:Test method CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsOrderByDescending_WhenSortOrderIsDescending threw exception: 
+System.ArgumentException: Instance property 'Age' is not defined for type 'CleanArchitecture.CoreTest.Data.GenericTestEntity' (Parameter 'propertyName'), ErrorStackTrace:   at System.Linq.Expressions.Expression.Property(Expression expression, String propertyName)
+   at CleanArchitecture.Core.Abstractions.Specifications.GenericSearchSpecification`1.GetOrderByExpression(String columnName) in C:\Output\CleanArchitecture\Src\CleanArchitecture.Core\Abstractions\Specifications\GenericSearchSpecification.cs:line 133
+   at CleanArchitecture.Core.Abstractions.Specifications.GenericSearchSpecification`1..ctor(SearchRequest searchRequest) in C:\Output\CleanArchitecture\Src\CleanArchitecture.Core\Abstractions\Specifications\GenericSearchSpecification.cs:line 108
+   at CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsOrderByDescending_WhenSortOrderIsDescending() in C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\Tests\Abstractions\Specifications\GenericSearchSpecificationTests.cs:line 57
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-05-30T00:45:44.6335145+00:00 mstest-trace INFORMATION MSTestExecutor:Test CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty failed. ErrorMessage:Test method CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty threw exception: 
+System.ArgumentException: Instance property 'Name' is not defined for type 'CleanArchitecture.CoreTest.Data.GenericTestEntity' (Parameter 'propertyName'), ErrorStackTrace:   at System.Linq.Expressions.Expression.Property(Expression expression, String propertyName)
+   at CleanArchitecture.Core.Abstractions.Specifications.GenericSearchSpecification`1.GetOrderByExpression(String columnName) in C:\Output\CleanArchitecture\Src\CleanArchitecture.Core\Abstractions\Specifications\GenericSearchSpecification.cs:line 133
+   at CleanArchitecture.Core.Abstractions.Specifications.GenericSearchSpecification`1..ctor(SearchRequest searchRequest) in C:\Output\CleanArchitecture\Src\CleanArchitecture.Core\Abstractions\Specifications\GenericSearchSpecification.cs:line 104
+   at CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsDefaultCriteria_WhenSearchValueIsNullOrEmpty() in C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\Tests\Abstractions\Specifications\GenericSearchSpecificationTests.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-05-30T00:45:44.6358203+00:00 mstest-trace INFORMATION Executed test Constructor_SetsPagingProperties
+2025-05-30T00:45:44.6358530+00:00 mstest-trace INFORMATION MSTestExecutor:Test CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsPagingProperties failed. ErrorMessage:Test method CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsPagingProperties threw exception: 
+System.ArgumentException: Instance property 'Name' is not defined for type 'CleanArchitecture.CoreTest.Data.GenericTestEntity' (Parameter 'propertyName'), ErrorStackTrace:   at System.Linq.Expressions.Expression.Property(Expression expression, String propertyName)
+   at CleanArchitecture.Core.Abstractions.Specifications.GenericSearchSpecification`1.GetOrderByExpression(String columnName) in C:\Output\CleanArchitecture\Src\CleanArchitecture.Core\Abstractions\Specifications\GenericSearchSpecification.cs:line 133
+   at CleanArchitecture.Core.Abstractions.Specifications.GenericSearchSpecification`1..ctor(SearchRequest searchRequest) in C:\Output\CleanArchitecture\Src\CleanArchitecture.Core\Abstractions\Specifications\GenericSearchSpecification.cs:line 104
+   at CleanArchitecture.CoreTest.Tests.Abstractions.Specifications.GenericSearchSpecificationTests.Constructor_SetsPagingProperties() in C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\Tests\Abstractions\Specifications\GenericSearchSpecificationTests.cs:line 92
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-05-30T00:45:44.6360636+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Output\CleanArchitecture\Tests\CleanArchitecture.CoreTest\bin\Debug\net9.0\CleanArchitecture.CoreTest.dll

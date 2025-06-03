@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [DataTransferUser] (Login)
+       [DataTransferUser] (User)
+       [db_datareader] for [DataTransferUser] (Role Membership)
+       [db_datawriter] for [DataTransferUser] (Role Membership)
+       [dbo].[Categories] (Table)
+       Permission (Permission)
+
+** Supporting actions

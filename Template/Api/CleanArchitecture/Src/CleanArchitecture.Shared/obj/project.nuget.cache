@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0n9/+erHMiU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\muata\\Downloads\\Clean-Architecture\\Clean-Architecture\\Template\\Api\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\muata\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
