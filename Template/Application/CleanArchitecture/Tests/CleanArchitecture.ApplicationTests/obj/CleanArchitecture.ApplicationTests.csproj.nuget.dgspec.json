@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj": {}
+    "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj": {}
   },
   "projects": {
-    "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+    "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "projectUniqueName": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
         "projectName": "CleanArchitecture.Application",
-        "projectPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
-        "packagesPath": "C:\\Users\\maziz\\.nuget\\packages\\",
-        "outputPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\obj\\",
+        "projectPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "packagesPath": "C:\\Users\\muata\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\maziz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\muata\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,15 +27,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagemanager.gpo.gov/repository/nuget-group/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj": {
-                "projectPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj"
+              "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj": {
+                "projectPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj"
               }
             }
           }
@@ -96,20 +95,20 @@
         }
       }
     },
-    "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj": {
+    "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+        "projectUniqueName": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
         "projectName": "CleanArchitecture.Core",
-        "projectPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
-        "packagesPath": "C:\\Users\\maziz\\.nuget\\packages\\",
-        "outputPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\obj\\",
+        "projectPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+        "packagesPath": "C:\\Users\\muata\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\maziz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\muata\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,8 +118,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagemanager.gpo.gov/repository/nuget-group/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -169,20 +167,20 @@
         }
       }
     },
-    "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj": {
+    "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
         "projectName": "CleanArchitecture.Shared",
-        "projectPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
-        "packagesPath": "C:\\Users\\maziz\\.nuget\\packages\\",
-        "outputPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\obj\\",
+        "projectPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
+        "packagesPath": "C:\\Users\\muata\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\maziz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\muata\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -192,15 +190,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagemanager.gpo.gov/repository/nuget-group/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj": {
-                "projectPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj"
+              "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj": {
+                "projectPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj"
               }
             }
           }
@@ -240,20 +237,20 @@
         }
       }
     },
-    "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj": {
+    "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj",
+        "projectUniqueName": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj",
         "projectName": "CleanArchitecture.ApplicationTests",
-        "projectPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj",
-        "packagesPath": "C:\\Users\\maziz\\.nuget\\packages\\",
-        "outputPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\obj\\",
+        "projectPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj",
+        "packagesPath": "C:\\Users\\muata\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\maziz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\muata\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -263,15 +260,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagemanager.gpo.gov/repository/nuget-group/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
-                "projectPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Application\\CleanArchitecture\\Src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
               }
             }
           }
