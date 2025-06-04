@@ -62,3 +62,6 @@ publish/
 /Template/Initializer/CleanArchitecture/Database/CleanArchitectureDb/CleanArchitectureDb.dbmdl
 /Template/Initializer/CleanArchitecture/Database/CleanArchitectureDb/CleanArchitectureDb.jfm
 /Template/Initializer/CleanArchitecture/Src/CleanArchitecture.DataInitializer/DacPac/CleanArchitectureDb.dacpac
+/Template/Sql/CleanArchitecture/Database/CleanArchitectureDb/CleanArchitectureDb.dbmdl
+/Template/Sql/CleanArchitecture/Database/CleanArchitectureDb/CleanArchitectureDb.jfm
+/Template/Initializer/CleanArchitecture/build_log.txt
