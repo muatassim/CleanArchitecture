@@ -1,2 +1,0 @@
-C:\Users\muata\Downloads\Clean-Architecture\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.Infrastructure.MicrosoftSqlTests\obj\Debug\net9.0\CleanArchitecture.Infrastructure.MicrosoftSqlTests.csproj.AssemblyReference.cache
-C:\Users\muata\Downloads\Clean-Architecture\Clean-Architecture\Template\Api\CleanArchitecture\Tests\CleanArchitecture.Infrastructure.MicrosoftSqlTests\obj\Debug\net9.0\CleanArchitecture.Infrastructure.MicrosoftSqlTests.GeneratedMSBuildEditorConfig.editorconfig
