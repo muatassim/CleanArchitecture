@@ -9,8 +9,15 @@
 		<TestingPlatformShowTestsFailure>true</TestingPlatformShowTestsFailure>
 		<UserSecretsId>9bf76a62-8949-49ac-a5c9-f9152609d702</UserSecretsId>
 	</PropertyGroup>
+	<PropertyGroup>
+		<GenerateMSBuildEditorConfig>false</GenerateMSBuildEditorConfig>
+	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.0" />
+	  <Content Remove="C:\Users\muata\.nuget\packages\microsoft.testplatform.testhost\17.14.0\build\net8.0\x64\testhost.dll" />
+	  <Content Remove="C:\Users\muata\.nuget\packages\microsoft.testplatform.testhost\17.14.0\build\net8.0\x64\testhost.exe" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
 		<PackageReference Include="Moq" Version="4.20.72" />
 		<PackageReference Include="MSTest.TestAdapter" Version="3.9.1" />
 		<PackageReference Include="MSTest.TestFramework" Version="3.9.1" />
@@ -37,5 +44,11 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="C:\Users\muata\.nuget\packages\mstest.testadapter\3.9.1\buildTransitive\net9.0\\Microsoft.TestPlatform.AdapterUtilities.dll" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="C:\Users\muata\.nuget\packages\mstest.testadapter\3.9.1\buildTransitive\net9.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" />
 	</ItemGroup> 
 </Project>
