@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "01sSNx3RESk=",
+  "dgSpecHash": "YtHQaknnbWQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\muata\\Downloads\\Clean-Architecture\\Clean-Architecture\\Template\\Api\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj",
+  "projectFilePath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Api\\CleanArchitecture\\Tests\\CleanArchitecture.ApplicationTests\\CleanArchitecture.ApplicationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muata\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\muata\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",

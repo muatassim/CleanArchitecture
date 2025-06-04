@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\",
+  "WorkspaceRootPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\maziz\\onedrive - government printing office (gpo)\\desktop\\tutorials_usefulcodes\\clean-architecture\\designpatternsamples\\designpatterns\\mediatr\\simplemediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\designpatternsamples\\designpatterns\\mediatr\\simplemediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\mediatr\\simplemediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\maziz\\onedrive - government printing office (gpo)\\desktop\\tutorials_usefulcodes\\clean-architecture\\designpatternsamples\\designpatterns\\builder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\designpatternsamples\\designpatterns\\builder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\builder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\maziz\\onedrive - government printing office (gpo)\\desktop\\tutorials_usefulcodes\\clean-architecture\\designpatternsamples\\designpatterns\\mediatr\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\designpatternsamples\\designpatterns\\mediatr\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\mediatr\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\maziz\\onedrive - government printing office (gpo)\\desktop\\tutorials_usefulcodes\\clean-architecture\\designpatternsamples\\designpatterns\\mediatr\\mediatrdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\designpatternsamples\\designpatterns\\mediatr\\mediatrdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\mediatr\\mediatrdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A30E848-F73D-41FF-B300-CCAA4D441E09}|DesignPatternsApp\\DesignPatternsApp.csproj|c:\\users\\maziz\\onedrive - government printing office (gpo)\\desktop\\tutorials_usefulcodes\\clean-architecture\\designpatternsamples\\designpatternsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A30E848-F73D-41FF-B300-CCAA4D441E09}|DesignPatternsApp\\DesignPatternsApp.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\designpatternsamples\\designpatternsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A30E848-F73D-41FF-B300-CCAA4D441E09}|DesignPatternsApp\\DesignPatternsApp.csproj|solutionrelative:designpatternsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\maziz\\onedrive - government printing office (gpo)\\desktop\\tutorials_usefulcodes\\clean-architecture\\designpatternsamples\\designpatterns\\liskovsubstitutionprinciple\\liskovdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\muata\\source\\repos\\muatassim\\cleanarchitecture\\designpatternsamples\\designpatterns\\liskovsubstitutionprinciple\\liskovdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F04C822-71CC-4366-9CA0-0266D67019C7}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\liskovsubstitutionprinciple\\liskovdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,11 +34,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 44,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
               "$type": "Bookmark",
@@ -70,10 +178,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:147:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
@@ -90,10 +194,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
@@ -101,59 +201,48 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:137:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:136:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\Builder\\Person.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\Builder\\Person.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\Builder\\Person.cs",
-              "ToolTip": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\Builder\\Person.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\Builder\\Person.cs",
               "RelativeToolTip": "DesignPatterns\\Builder\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T02:09:06.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T02:09:06.955Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "CreateUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\Mediatr\\CreateUserCommand.cs",
-              "ToolTip": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\CreateUserCommand.cs",
               "RelativeToolTip": "DesignPatterns\\Mediatr\\CreateUserCommand.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T02:07:35.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T02:07:35.83Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatternsApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatternsApp\\Program.cs",
               "RelativeDocumentMoniker": "DesignPatternsApp\\Program.cs",
-              "ToolTip": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatternsApp\\Program.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatternsApp\\Program.cs",
               "RelativeToolTip": "DesignPatternsApp\\Program.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAAC4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T02:06:16.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T02:06:16.15Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SimpleMediator.cs",
-              "DocumentMoniker": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\SimpleMediator.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\SimpleMediator.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\Mediatr\\SimpleMediator.cs",
-              "ToolTip": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\SimpleMediator.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\SimpleMediator.cs",
               "RelativeToolTip": "DesignPatterns\\Mediatr\\SimpleMediator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -164,27 +253,29 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "LiskovDemo.cs",
-              "DocumentMoniker": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\LiskovSubstitutionPrinciple\\LiskovDemo.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\LiskovSubstitutionPrinciple\\LiskovDemo.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\LiskovSubstitutionPrinciple\\LiskovDemo.cs",
-              "ToolTip": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\LiskovSubstitutionPrinciple\\LiskovDemo.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\LiskovSubstitutionPrinciple\\LiskovDemo.cs",
               "RelativeToolTip": "DesignPatterns\\LiskovSubstitutionPrinciple\\LiskovDemo.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAwwBYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T02:05:21.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T02:05:21.918Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MediatrDemo.cs",
-              "DocumentMoniker": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\MediatrDemo.cs",
+              "DocumentMoniker": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\MediatrDemo.cs",
               "RelativeDocumentMoniker": "DesignPatterns\\Mediatr\\MediatrDemo.cs",
-              "ToolTip": "C:\\Users\\maziz\\OneDrive - Government Printing Office (GPO)\\Desktop\\Tutorials_UsefulCodes\\Clean-Architecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\MediatrDemo.cs",
+              "ToolTip": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\DesignPatternSamples\\DesignPatterns\\Mediatr\\MediatrDemo.cs",
               "RelativeToolTip": "DesignPatterns\\Mediatr\\MediatrDemo.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAwwBEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T02:02:18.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T02:02:18.586Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
             }
           ]
         }

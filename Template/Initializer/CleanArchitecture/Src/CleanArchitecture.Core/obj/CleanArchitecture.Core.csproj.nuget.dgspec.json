@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muata\\Downloads\\Clean-Architecture\\Clean-Architecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj": {}
+    "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muata\\Downloads\\Clean-Architecture\\Clean-Architecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj": {
+    "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muata\\Downloads\\Clean-Architecture\\Clean-Architecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+        "projectUniqueName": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
         "projectName": "CleanArchitecture.Core",
-        "projectPath": "C:\\Users\\muata\\Downloads\\Clean-Architecture\\Clean-Architecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+        "projectPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
         "packagesPath": "C:\\Users\\muata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muata\\Downloads\\Clean-Architecture\\Clean-Architecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\obj\\",
+        "outputPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Initializer\\CleanArchitecture\\Src\\CleanArchitecture.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

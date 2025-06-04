@@ -58,23 +58,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maziz\\.nuget\\packages\\": {},
+    "C:\\Users\\muata\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Sql\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+      "projectUniqueName": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Sql\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
       "projectName": "CleanArchitecture.Core",
-      "projectPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Sql\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
-      "packagesPath": "C:\\Users\\maziz\\.nuget\\packages\\",
-      "outputPath": "C:\\Tutorials_UsefulCodes\\Clean-Architecture\\Template\\Sql\\CleanArchitecture\\Src\\CleanArchitecture.Core\\obj\\",
+      "projectPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Sql\\CleanArchitecture\\Src\\CleanArchitecture.Core\\CleanArchitecture.Core.csproj",
+      "packagesPath": "C:\\Users\\muata\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\muata\\source\\repos\\muatassim\\CleanArchitecture\\Template\\Sql\\CleanArchitecture\\Src\\CleanArchitecture.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\maziz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\muata\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -84,8 +84,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://packagemanager.gpo.gov/repository/nuget-group/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
