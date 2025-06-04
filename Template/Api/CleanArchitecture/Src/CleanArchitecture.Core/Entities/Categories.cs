@@ -52,10 +52,9 @@ namespace CleanArchitecture.Core.Entities
         public override List<Rule> CreateRules()
         {
             var rules = base.CreateRules();
-            (rules.Add(new CustomRule(nameof(CategoryName), $"{nameof(CategoryName)} validation failed.",
+            rules.Add(new CustomRule(nameof(CategoryName), $"{nameof(CategoryName)} validation failed.",
                     () => CheckCustomRule(CategoryName)));
-            ;
-                )  rules.Add(new RequiredFieldRule(nameof(CategoryName), CategoryName));
+            rules.Add(new RequiredFieldRule(nameof(CategoryName), CategoryName));
             rules.Add(new MaximumFieldLengthRule(nameof(CategoryName), CategoryName, 15));
             rules.Add(new MaximumFieldLengthRule(nameof(Description), Description, 8));
             return rules;

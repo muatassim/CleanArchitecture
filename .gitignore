@@ -380,3 +380,5 @@
 /Template/Core/CleanArchitecture/Tests/CleanArchitecture.CoreTest/obj/Debug/net9.0/CleanArchitecture.CoreTest.sourcelink.json
 /Template/Core/CleanArchitecture/Tests/CleanArchitecture.CoreTest/obj/Debug/net9.0/ref/CleanArchitecture.CoreTest.dll
 /Template/Core/CleanArchitecture/Tests/CleanArchitecture.CoreTest/obj/Debug/net9.0/refint/CleanArchitecture.CoreTest.dll
+/Template/Initializer/CleanArchitecture/.vs
+/Template/Core/CleanArchitecture/.vs
