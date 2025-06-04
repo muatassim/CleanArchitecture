@@ -1,1 +1,0 @@
-2025-05-30T12:54:59.5175406-04:00  [INF] "C:\Tutorials_UsefulCodes\Clean-Architecture\Template\Sql\CleanArchitecture\TestResults\Deploy_maziz 20250530T125459_46316" (555c76bb)
